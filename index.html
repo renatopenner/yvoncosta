@@ -153,6 +153,7 @@
         <!-- Menu Desktop -->
         <nav class="hidden lg:flex items-center gap-8 text-xs font-semibold uppercase tracking-wider text-gray-600">
           <a href="#inicio" class="hover:text-forest-800 transition py-1 border-b-2 border-transparent hover:border-forest-700">Início</a>
+          <a href="#evento" class="text-amber-700 font-bold bg-amber-50 px-2.5 py-1 rounded-full border border-amber-200/80 hover:bg-amber-100 transition flex items-center gap-1.5"><span class="w-1.5 h-1.5 rounded-full bg-red-500 animate-pulse"></span> Hoje: Palestra Especial</a>
           <a href="#sobre" class="hover:text-forest-800 transition py-1 border-b-2 border-transparent hover:border-forest-700">A Casa</a>
           <a href="#programacao" class="hover:text-forest-800 transition py-1 border-b-2 border-transparent hover:border-forest-700">Horários</a>
           <a href="#atendimento" class="hover:text-forest-800 transition py-1 border-b-2 border-transparent hover:border-forest-700">Atendimento Fraterno</a>
@@ -180,6 +181,7 @@
     <!-- Dropdown Mobile -->
     <div id="mobile-menu" class="hidden lg:hidden bg-sand-50/95 backdrop-blur-xl border-b border-sand-200 px-6 py-6 shadow-2xl space-y-4">
       <a href="#inicio" class="mobile-link block text-sm font-semibold uppercase tracking-wider text-forest-950 hover:text-forest-700">Início</a>
+      <a href="#evento" class="mobile-link block text-sm font-bold uppercase tracking-wider text-amber-700 bg-amber-50 p-2 rounded-lg border border-amber-200">🔴 Hoje (19h): Palestra Especial</a>
       <a href="#sobre" class="mobile-link block text-sm font-semibold uppercase tracking-wider text-forest-950 hover:text-forest-700">Sobre a Instituição</a>
       <a href="#programacao" class="mobile-link block text-sm font-semibold uppercase tracking-wider text-forest-950 hover:text-forest-700">Horários & Programação</a>
       <a href="#atendimento" class="mobile-link block text-sm font-semibold uppercase tracking-wider text-forest-950 hover:text-forest-700">Atendimento Fraterno</a>
@@ -265,6 +267,103 @@
           <div class="glass-card rounded-2xl p-5 text-center shadow-sm">
             <div class="text-2xl sm:text-3xl font-serif font-bold text-forest-950 mb-1">São Brás</div>
             <div class="text-[11px] font-semibold uppercase tracking-wider text-forest-700">Belém do Pará</div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- EVENTO ESPECIAL EM DESTAQUE (HOJE) -->
+    <section id="evento" class="py-14 bg-gradient-to-b from-sand-100 to-white border-b border-sand-200">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="bg-white rounded-3xl shadow-xl border-2 border-forest-600/30 overflow-hidden relative">
+          <!-- Faixa de Destaque Superior -->
+          <div class="bg-forest-900 text-white px-6 py-2.5 flex flex-wrap items-center justify-between gap-3 text-xs font-semibold">
+            <div class="flex items-center gap-2">
+              <span class="w-2.5 h-2.5 rounded-full bg-red-500 animate-pulse"></span>
+              <span class="uppercase tracking-wider text-amber-300 font-bold">Evento Especial • Hoje</span>
+              <span class="text-forest-400">•</span>
+              <span>Segunda-feira, 09 de Novembro às 19:00</span>
+            </div>
+            <div class="text-[11px] text-forest-200 tracking-wide font-normal">
+              Diretoria de Assistência Espiritual (DAE) • CEYC
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center p-6 sm:p-10 lg:p-12">
+            
+            <!-- Conteúdo do Evento -->
+            <div class="lg:col-span-7 space-y-6">
+              
+              <div>
+                <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-forest-50 text-forest-800 text-xs font-bold uppercase tracking-wider border border-forest-100 mb-3">
+                  <i data-lucide="sparkles" class="w-3.5 h-3.5 text-forest-600"></i>
+                  Saúde Mental à Luz do Espiritismo
+                </span>
+                
+                <h2 class="font-serif text-2xl sm:text-3xl lg:text-4xl text-forest-950 font-bold leading-tight">
+                  Reencarnação: Lei de Causa e Efeito e o Livre-Arbítrio
+                </h2>
+              </div>
+
+              <!-- Citação do ESE -->
+              <blockquote class="p-4 rounded-2xl bg-sand-50 border-l-4 border-forest-600 italic text-sm text-gray-700 leading-relaxed">
+                "A encarnação, para todos os Espíritos, é apenas um estado transitório. É uma empreitada que Deus lhes impõe, no início da existência, como primeira prova do uso que farão de seu livre-arbítrio."
+                <footer class="not-italic font-sans text-xs text-forest-800 font-bold mt-1.5">
+                  — O Evangelho segundo o Espiritismo (Cap. IV, item 25)
+                </footer>
+              </blockquote>
+
+              <!-- Informações Práticas -->
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs sm:text-sm">
+                <div class="p-3.5 rounded-xl bg-forest-50/70 border border-forest-100/80 flex items-start gap-3">
+                  <div class="w-8 h-8 rounded-lg bg-forest-900 text-gold-400 flex items-center justify-center shrink-0 mt-0.5">
+                    <i data-lucide="clock" class="w-4 h-4"></i>
+                  </div>
+                  <div>
+                    <strong class="text-forest-950 block">Horário de Início</strong>
+                    <span class="text-forest-800 font-mono font-bold text-sm">19:00 às 20:00 h</span>
+                    <span class="text-[11px] text-gray-500 block">09/11 • Segunda-feira</span>
+                  </div>
+                </div>
+
+                <div class="p-3.5 rounded-xl bg-forest-50/70 border border-forest-100/80 flex items-start gap-3">
+                  <div class="w-8 h-8 rounded-lg bg-forest-900 text-gold-400 flex items-center justify-center shrink-0 mt-0.5">
+                    <i data-lucide="users" class="w-4 h-4"></i>
+                  </div>
+                  <div>
+                    <strong class="text-forest-950 block">Público-Alvo</strong>
+                    <span class="text-gray-700 text-xs">Grupos de AE e <strong>aberto ao público em geral</strong>.</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Endereço e Ações -->
+              <div class="pt-2 flex flex-col sm:flex-row items-center gap-3">
+                <a href="#localizacao" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3 text-xs font-bold uppercase tracking-wider text-white bg-forest-900 hover:bg-forest-800 rounded-xl shadow-md transition-all">
+                  <i data-lucide="map-pin" class="w-4 h-4 text-gold-400"></i>
+                  <span>Tv. Castelo Branco, 870 • Ver Mapa</span>
+                </a>
+                <a href="https://maps.google.com/?q=-1.450322,-48.470949" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3 text-xs font-bold uppercase tracking-wider text-forest-950 bg-sand-100 hover:bg-sand-200 border border-sand-300 rounded-xl transition">
+                  <i data-lucide="navigation" class="w-4 h-4 text-forest-700"></i>
+                  <span>Traçar Rota no GPS</span>
+                </a>
+              </div>
+
+              <p class="text-[11px] text-gray-500">
+                Realização: <strong>Diretoria de Assistência Espiritual do CEYC</strong> • Entrada franca.
+              </p>
+            </div>
+
+            <!-- Imagem Oficial do Cartaz -->
+            <div class="lg:col-span-5 flex justify-center">
+              <div class="relative w-full max-w-sm rounded-2xl overflow-hidden shadow-2xl border-4 border-white bg-sand-50 transition-transform hover:scale-[1.02] duration-300">
+                <img src="assets/img/evento-saude-mental.jpg" alt="Cartaz Oficial: Saúde Mental à Luz do Espiritismo - Reencarnação" class="w-full h-auto object-cover">
+              </div>
+            </div>
+
           </div>
 
         </div>
