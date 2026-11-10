@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Palestras & Vídeos • Centro Espírita Yvon Costa</title>
+  <meta name="description" content="Acervo completo de palestras doutrinárias, estudos e transmissões do Centro Espírita Yvon Costa em ordem cronológica. Belém do Pará.">
+  
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+
+  <!-- Fontes Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            forest: {
+              50: '#f2f7f4',
+              100: '#e1ede6',
+              200: '#c5dcd0',
+              300: '#9ec2b1',
+              400: '#72a38e',
+              500: '#488c75',
+              600: '#35715e',
+              700: '#2c5b4d',
+              800: '#254a3f',
+              900: '#1e3d34',
+              950: '#0e241e'
+            },
+            sand: {
+              50: '#faf8f5',
+              100: '#f4f0e9',
+              200: '#e8dfd2',
+              300: '#d7c7b2',
+              400: '#c2ab90',
+              500: '#b19374'
+            },
+            gold: {
+              400: '#e5c07b',
+              500: '#d4af37',
+              600: '#b89628'
+            }
+          },
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            serif: ['"Cinzel"', 'serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <style>
+    .glass-header {
+      background: rgba(250, 248, 245, 0.9);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+    }
+    .custom-scrollbar::-webkit-scrollbar {
+      height: 8px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-track {
+      background: #f4f0e9;
+      border-radius: 9999px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+      background: #b19374;
+      border-radius: 9999px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+      background: #1e3d34;
+    }
+  </style>
+</head>
+
+<body class="bg-sand-50 text-gray-800 font-sans antialiased selection:bg-forest-100 selection:text-forest-900">
+
+  <!-- Barra de Topo Elegante -->
+  <div class="bg-forest-950 text-forest-200 text-xs py-2 px-4 border-b border-forest-900/60">
+    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2 text-center sm:text-left">
+      <div class="flex items-center gap-2">
+        <span class="w-1.5 h-1.5 rounded-full bg-gold-400 animate-ping"></span>
+        <span class="tracking-wide">Centro Espírita Yvon Costa • Fundado em 11 de Fevereiro de 1926 • Belém/PA</span>
+      </div>
+      <div class="flex items-center gap-4 text-[11px] text-forest-300">
+        <span class="flex items-center gap-1"><i data-lucide="map-pin" class="w-3 h-3 text-gold-400"></i> Tv. Castelo Branco, 870</span>
+        <span class="hidden md:inline">•</span>
+        <span class="hidden md:inline">Palestras Matutinas & Plantão do Passe</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header / Navbar -->
+  <header class="sticky top-0 z-50 glass-header border-b border-sand-200/80 transition-all duration-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        
+        <!-- Logo e Tipografia -->
+        <a href="index.html" class="flex items-center gap-3 shrink-0 group">
+          <div class="w-11 h-11 rounded-full bg-white p-1 border border-forest-600/20 shadow-sm flex items-center justify-center transition-transform group-hover:scale-105">
+            <img src="assets/img/logo.jpg" alt="Logo Centro Espírita Yvon Costa" class="w-full h-full object-contain rounded-full">
+          </div>
+          <div>
+            <span class="block font-serif font-bold text-base sm:text-lg text-forest-950 tracking-wider uppercase leading-none">
+              Yvon Costa
+            </span>
+            <span class="block text-[11px] text-forest-700 tracking-widest uppercase font-semibold mt-1">
+              Centro Espírita • Fundado em 1926
+            </span>
+          </div>
+        </a>
+
+        <!-- Menu Desktop -->
+        <nav class="hidden lg:flex items-center gap-6 xl:gap-8 text-xs font-semibold uppercase tracking-wider text-gray-600">
+          <a href="index.html#inicio" class="whitespace-nowrap hover:text-forest-800 transition py-1 border-b-2 border-transparent hover:border-forest-700">Início</a>
+          <a href="palestras.html" class="whitespace-nowrap text-white font-bold bg-forest-900 px-3.5 py-1.5 rounded-full shadow-sm inline-flex items-center gap-1.5"><i data-lucide="play-circle" class="w-3.5 h-3.5 text-gold-400"></i> Palestras & Vídeos</a>
+          <a href="index.html#sobre" class="whitespace-nowrap hover:text-forest-800 transition py-1 border-b-2 border-transparent hover:border-forest-700">A Casa</a>
+          <a href="index.html#programacao" class="whitespace-nowrap hover:text-forest-800 transition py-1 border-b-2 border-transparent hover:border-forest-700">Horários</a>
+          <a href="index.html#atendimento" class="whitespace-nowrap hover:text-forest-800 transition py-1 border-b-2 border-transparent hover:border-forest-700">Atendimento Fraterno</a>
+          <a href="index.html#projetos" class="whitespace-nowrap hover:text-forest-800 transition py-1 border-b-2 border-transparent hover:border-forest-700 inline-flex items-center gap-1.5 text-forest-900">
+            <span>Ações Sociais & PIX</span>
+            <i data-lucide="heart" class="w-3.5 h-3.5 text-forest-700 fill-forest-700/20"></i>
+          </a>
+          <a href="index.html#localizacao" class="whitespace-nowrap hover:text-forest-800 transition py-1 border-b-2 border-transparent hover:border-forest-700">Localização</a>
+        </nav>
+
+        <!-- Botão Menu Mobile -->
+        <button id="mobile-menu-btn" class="lg:hidden p-2 text-forest-950 focus:outline-none" aria-label="Menu de navegação">
+          <i data-lucide="menu" id="menu-icon-open" class="w-6 h-6"></i>
+          <i data-lucide="x" id="menu-icon-close" class="w-6 h-6 hidden"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Dropdown Mobile -->
+    <div id="mobile-menu" class="hidden lg:hidden bg-sand-50/95 backdrop-blur-xl border-b border-sand-200 px-6 py-6 shadow-2xl space-y-4">
+      <a href="index.html#inicio" class="mobile-link block text-sm font-semibold uppercase tracking-wider text-forest-950 hover:text-forest-700">Início</a>
+      <a href="palestras.html" class="mobile-link block text-sm font-bold uppercase tracking-wider text-white bg-forest-900 p-2.5 rounded-xl flex items-center justify-between">
+        <span>🎬 Todas as Palestras & Vídeos</span>
+        <span class="text-[10px] bg-gold-400 text-forest-950 font-sans font-bold px-2 py-0.5 rounded-full uppercase">Acervo</span>
+      </a>
+      <a href="index.html#sobre" class="mobile-link block text-sm font-semibold uppercase tracking-wider text-forest-950 hover:text-forest-700">Sobre a Instituição</a>
+      <a href="index.html#programacao" class="mobile-link block text-sm font-semibold uppercase tracking-wider text-forest-950 hover:text-forest-700">Horários & Programação</a>
+      <a href="index.html#atendimento" class="mobile-link block text-sm font-semibold uppercase tracking-wider text-forest-950 hover:text-forest-700">Atendimento Fraterno</a>
+      <a href="index.html#projetos" class="mobile-link block text-sm font-semibold uppercase tracking-wider text-forest-950 hover:text-forest-700 flex items-center justify-between p-2.5 rounded-xl bg-forest-50/80 border border-forest-100">
+        <span>Ações Sociais & Chave PIX</span>
+        <i data-lucide="heart" class="w-4 h-4 text-forest-700 fill-forest-700/20"></i>
+      </a>
+      <a href="index.html#localizacao" class="mobile-link block text-sm font-semibold uppercase tracking-wider text-forest-950 hover:text-forest-700">Como Chegar</a>
+    </div>
+  </header>
+
+  <main class="py-12 lg:py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Cabeçalho da Página de Palestras -->
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <div class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-forest-700 mb-2">
+          <span class="w-6 h-px bg-forest-600"></span>
+          <span>Acervo Doutrinário Oficial</span>
+          <span class="w-6 h-px bg-forest-600"></span>
+        </div>
+        <h1 class="font-serif text-3xl sm:text-5xl text-forest-950 font-bold tracking-tight">
+          Palestras, Estudos & Gravações
+        </h1>
+        <p class="text-sm sm:text-base text-gray-600 mt-3 font-light leading-relaxed">
+          Assista às gravações realizadas em nossa Casa, organizadas em ordem cronológica com reflexões à luz da Doutrina Espírita e do Evangelho de Jesus.
+        </p>
+
+        <!-- Barra de Filtros Rápida -->
+        <div class="flex flex-wrap items-center justify-center gap-2 mt-8">
+          <button onclick="filtrarPalestras('todas')" class="filtro-btn active px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider bg-forest-900 text-white transition shadow-sm" data-filtro="todas">
+            Todas as Palestras
+          </button>
+          <button onclick="filtrarPalestras('Jessie James')" class="filtro-btn px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider bg-sand-100 text-forest-900 hover:bg-sand-200 transition border border-sand-300" data-filtro="Jessie James">
+            Jessie James
+          </button>
+          <button onclick="filtrarPalestras('Clodomil Moura')" class="filtro-btn px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider bg-sand-100 text-forest-900 hover:bg-sand-200 transition border border-sand-300" data-filtro="Clodomil Moura">
+            Clodomil Moura
+          </button>
+          <button onclick="filtrarPalestras('Rômulo Leite')" class="filtro-btn px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider bg-sand-100 text-forest-900 hover:bg-sand-200 transition border border-sand-300" data-filtro="Rômulo Leite">
+            Rômulo Leite
+          </button>
+          <button onclick="filtrarPalestras('Ação Social')" class="filtro-btn px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider bg-sand-100 text-forest-900 hover:bg-sand-200 transition border border-sand-300" data-filtro="Ação Social">
+            Colônia do Prata
+          </button>
+        </div>
+      </div>
+
+      <!-- Player de Vídeo em Destaque (Cinema View) -->
+      <div id="player-destaque-secao" class="mb-16">
+        <!-- Renderizado dinamicamente pelo JavaScript -->
+      </div>
+
+      <!-- Divisor com Linha do Tempo Cronológica -->
+      <div class="flex items-center justify-between mb-8 pb-4 border-b border-sand-200">
+        <div>
+          <h2 class="font-serif text-2xl text-forest-950 font-bold flex items-center gap-2">
+            <i data-lucide="history" class="w-6 h-6 text-forest-700"></i>
+            <span>Linha do Tempo Cronológica</span>
+          </h2>
+          <p class="text-xs text-gray-500 mt-0.5">Listagem completa da gravação mais recente para as anteriores</p>
+        </div>
+        <span id="contador-videos" class="text-xs font-mono font-bold text-forest-800 bg-sand-100 px-3 py-1 rounded-full border border-sand-300">
+          5 Vídeos Disponíveis
+        </span>
+      </div>
+
+      <!-- Grid Cronológico de Vídeos -->
+      <div id="timeline-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Renderizado dinamicamente via JS -->
+      </div>
+
+      <!-- Chamada para Atividades Presenciais -->
+      <div class="mt-16 bg-white rounded-3xl p-8 sm:p-10 border border-sand-200 shadow-sm flex flex-col md:flex-row items-center justify-between gap-6">
+        <div class="space-y-2">
+          <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-forest-50 text-forest-800 text-xs font-bold uppercase tracking-wider border border-forest-100">
+            <i data-lucide="calendar" class="w-3.5 h-3.5 text-forest-600"></i>
+            Palestras Dominicais Presenciais
+          </span>
+          <h3 class="font-serif text-2xl text-forest-950 font-bold">
+            Venha nos visitar em nossa sede
+          </h3>
+          <p class="text-sm text-gray-600 max-w-xl font-light">
+            Todo domingo às 09:00 h realizamos palestras públicas abertas a toda a família com passe magnético e acolhimento fraterno na Tv. Castelo Branco, 870 (São Brás).
+          </p>
+        </div>
+        <div class="flex items-center gap-3 shrink-0">
+          <a href="index.html#programacao" class="px-6 py-3 bg-forest-900 hover:bg-forest-800 text-white font-bold text-xs uppercase tracking-wider rounded-xl shadow-md transition">
+            Ver Todos os Horários
+          </a>
+          <a href="index.html#localizacao" class="px-6 py-3 bg-sand-100 hover:bg-sand-200 text-forest-950 font-bold text-xs uppercase tracking-wider rounded-xl border border-sand-300 transition">
+            Ver Mapa & Rotas
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Modal Lightbox para Ampliar Imagens -->
+  <div id="lightbox-modal" class="fixed inset-0 z-50 bg-black/85 backdrop-blur-md hidden flex items-center justify-center p-4" onclick="fecharLightbox()">
+    <div class="relative max-w-3xl max-h-[92vh] flex flex-col items-center" onclick="event.stopPropagation()">
+      <button onclick="fecharLightbox()" class="absolute -top-10 right-0 text-white hover:text-sand-200 text-sm font-bold flex items-center gap-1 bg-black/40 px-3 py-1 rounded-full">
+        <span>Fechar</span> ✕
+      </button>
+      <img id="lightbox-img" src="" alt="Cartaz Ampliado" class="max-w-full max-h-[82vh] rounded-xl shadow-2xl object-contain border-2 border-white/20">
+      <p id="lightbox-caption" class="text-white text-xs mt-3 text-center font-medium"></p>
+    </div>
+  </div>
+
+  <!-- Rodapé -->
+  <footer class="bg-forest-950 text-forest-300 text-xs py-12 border-t border-forest-900 mt-12">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row items-center justify-between gap-6 pb-8 border-b border-forest-900/80 text-center md:text-left">
+        <div class="flex items-center gap-3">
+          <div class="w-9 h-9 rounded-full bg-white p-0.5">
+            <img src="assets/img/logo.jpg" alt="Logo" class="w-full h-full object-contain rounded-full">
+          </div>
+          <div>
+            <span class="font-serif font-bold text-sm text-sand-50 uppercase tracking-wider block">Centro Espírita Yvon Costa</span>
+            <span class="text-[11px] text-forest-400">Fundado em 11/02/1926 • Belém/PA • CNPJ: 05.090.857/0001-63</span>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap items-center justify-center gap-6 uppercase tracking-wider text-[11px] font-semibold text-forest-400">
+          <a href="index.html#inicio" class="hover:text-sand-100 transition">Início</a>
+          <a href="palestras.html" class="text-white font-bold transition">Palestras</a>
+          <a href="index.html#sobre" class="hover:text-sand-100 transition">A Casa</a>
+          <a href="index.html#programacao" class="hover:text-sand-100 transition">Horários</a>
+          <a href="index.html#atendimento" class="hover:text-sand-100 transition">Atendimento Fraterno</a>
+          <a href="index.html#projetos" class="hover:text-sand-100 transition">Ações Sociais</a>
+        </div>
+      </div>
+
+      <div class="pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-forest-500 text-center sm:text-left">
+        <p>© 2026 Centro Espírita Yvon Costa. Atividades doutrinárias 100% gratuitas.</p>
+        <p>Desenvolvido com carinho e fraternidade.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts da Videoteca -->
+  <script>
+    lucide.createIcons();
+
+    // Menu Mobile
+    const mobileBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const iconOpen = document.getElementById('menu-icon-open');
+    const iconClose = document.getElementById('menu-icon-close');
+
+    mobileBtn.addEventListener('click', () => {
+      const isClosed = mobileMenu.classList.contains('hidden');
+      if (isClosed) {
+        mobileMenu.classList.remove('hidden');
+        iconOpen.classList.add('hidden');
+        iconClose.classList.remove('hidden');
+      } else {
+        mobileMenu.classList.add('hidden');
+        iconOpen.classList.remove('hidden');
+        iconClose.classList.add('hidden');
+      }
+    });
+
+    // BASE DE DADOS CRONOLÓGICA DAS PALESTRAS E VÍDEOS DO CEYC
+    const ACERVO_PALESTRAS = [
+      {
+        id: "palestra-jessie-james-reencarnacao",
+        dataIso: "2026-11-09",
+        dataExibicao: "09 de Novembro de 2026",
+        diaSemana: "Segunda-feira",
+        youtubeId: "FciGJRlg6TY",
+        youtubeUrl: "https://youtu.be/FciGJRlg6TY",
+        titulo: "Reencarnação: Lei de Causa e Efeito e o Livre-Arbítrio",
+        palestrante: "Jessie James",
+        categoria: "Saúde Mental à Luz do Espiritismo",
+        departamento: "Diretoria de Assistência Espiritual (DAE) • CEYC",
+        citacao: "A encarnação, para todos os Espíritos, é apenas um estado transitório. É uma empreitada que Deus lhes impõe, no início da existência, como primeira prova do uso que farão de seu livre-arbítrio.",
+        fonteCitacao: "O Evangelho segundo o Espiritismo (Cap. IV, item 25)",
+        thumbnail: "assets/img/palestra-jessie-james-reencarnacao.jpg",
+        cartaz: "assets/img/evento-saude-mental.jpg",
+        destaqueInicial: true
+      },
+      {
+        id: "palestra-clodomil-influencias",
+        dataIso: "2026-09-28",
+        dataExibicao: "28 de Setembro de 2026",
+        diaSemana: "Segunda-feira",
+        youtubeId: "YLWE2yN9Qc0",
+        youtubeUrl: "https://youtu.be/YLWE2yN9Qc0",
+        titulo: "Influências Espirituais na Visão da Doutrina Espírita",
+        palestrante: "Clodomil Moura",
+        categoria: "Doutrina Espírita & Obsessão",
+        departamento: "Diretoria Doutrinária • CEYC",
+        citacao: "Os Espíritos influem sobre os nossos pensamentos e ações muito mais do que imaginais, pois frequentemente são eles que vos dirigem.",
+        fonteCitacao: "O Livro dos Espíritos (Questão 459)",
+        thumbnail: "assets/img/palestra-clodomil-influencias.jpg",
+        cartaz: "assets/img/palestra-clodomil-influencias.jpg"
+      },
+      {
+        id: "palestra-romulo-ansiedade",
+        dataIso: "2026-08-31",
+        dataExibicao: "31 de Agosto de 2026",
+        diaSemana: "Segunda-feira",
+        youtubeId: "E_n1nz4I7y0",
+        youtubeUrl: "https://youtu.be/E_n1nz4I7y0",
+        titulo: "Ansiedade à Luz do Espiritismo",
+        palestrante: "Rômulo Leite",
+        categoria: "Saúde Mental & Conflitos da Alma",
+        departamento: "Diretoria de Assistência Espiritual • CEYC",
+        citacao: "Não vos inquieteis pelo dia de amanhã, pois o dia de amanhã trará as suas preocupações. A cada dia basta o seu fardo.",
+        fonteCitacao: "O Evangelho segundo o Espiritismo",
+        thumbnail: "assets/img/palestra-romulo-ansiedade.jpg",
+        cartaz: "assets/img/palestra-romulo-ansiedade.jpg"
+      },
+      {
+        id: "palestra-clodomil-saude-mental",
+        dataIso: "2026-08-17",
+        dataExibicao: "17 de Agosto de 2026",
+        diaSemana: "Segunda-feira",
+        youtubeId: "yFd-xaqoan0",
+        youtubeUrl: "https://youtu.be/yFd-xaqoan0",
+        titulo: "Saúde Mental à Luz do Espiritismo",
+        palestrante: "Clodomil Moura",
+        categoria: "Saúde Mental & Espiritismo",
+        departamento: "Diretoria de Assistência Espiritual • CEYC",
+        citacao: "O equilíbrio moral e a serenidade da mente decorrem da aceitação consciente das provas e do cultivo do amor fraterno.",
+        fonteCitacao: "Doutrina Espírita",
+        thumbnail: "assets/img/palestra-clodomil-saude-mental.jpg",
+        cartaz: "assets/img/palestra-clodomil-saude-mental.jpg"
+      },
+      {
+        id: "acao-colonia-prata-2026",
+        dataIso: "2026-04-15",
+        dataExibicao: "Abril de 2026",
+        diaSemana: "Caravana Fraterna",
+        youtubeId: "XRUrmrQzRZ8",
+        youtubeUrl: "https://youtu.be/XRUrmrQzRZ8",
+        titulo: "Ação Social na Colônia do Prata - Abril 2026",
+        palestrante: "Voluntários do CEYC",
+        categoria: "Ação Social & Caridade",
+        departamento: "Departamento de Assistência Social • CEYC",
+        citacao: "A verdadeira caridade é paciente e benigna; ela não busca seus próprios interesses.",
+        fonteCitacao: "O Evangelho segundo o Espiritismo",
+        thumbnail: "assets/img/acao-colonia-prata-2026.jpg",
+        cartaz: "assets/img/acao-colonia-prata-2026.jpg"
+      }
+    ];
+
+    let videoAtivoId = ACERVO_PALESTRAS[0].id;
+    let filtroAtual = "todas";
+
+    function carregarPlayerDestaque(id, autoPlay = false) {
+      videoAtivoId = id;
+      const v = ACERVO_PALESTRAS.find(item => item.id === id) || ACERVO_PALESTRAS[0];
+      const container = document.getElementById("player-destaque-secao");
+      if (!container) return;
+
+      const embedSrc = `https://www.youtube-nocookie.com/embed/${v.youtubeId}?rel=0${autoPlay ? '&autoplay=1' : ''}`;
+
+      container.innerHTML = `
+        <div class="bg-white rounded-3xl shadow-xl border-2 border-forest-600/30 overflow-hidden">
+          <div class="bg-forest-900 text-white px-6 py-3 flex flex-wrap items-center justify-between gap-3 text-xs font-semibold">
+            <div class="flex items-center gap-2">
+              <span class="w-2.5 h-2.5 rounded-full bg-red-500 animate-pulse"></span>
+              <span class="uppercase tracking-wider text-amber-300 font-bold">Em Reprodução</span>
+              <span class="text-forest-400">•</span>
+              <span>${v.dataExibicao} (${v.diaSemana})</span>
+            </div>
+            <div class="text-[11px] text-forest-200">
+              ${v.departamento}
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-center p-6 sm:p-8 lg:p-10">
+            <div class="lg:col-span-7">
+              <div class="relative bg-black rounded-2xl overflow-hidden shadow-2xl aspect-video border border-sand-200">
+                <iframe 
+                  class="w-full h-full"
+                  src="${embedSrc}" 
+                  title="${v.titulo}" 
+                  frameborder="0" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                  allowfullscreen>
+                </iframe>
+              </div>
+              <div class="mt-3.5 flex flex-wrap items-center justify-between gap-2 text-xs">
+                <span class="text-gray-500 text-[11px] flex items-center gap-1.5">
+                  <i data-lucide="video" class="w-3.5 h-3.5 text-red-600"></i>
+                  <span>Vídeo Oficial do Canal do Centro Espírita Yvon Costa</span>
+                </span>
+                <a href="${v.youtubeUrl}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 text-red-600 hover:text-red-700 font-bold uppercase tracking-wider text-xs">
+                  <span>Abrir no YouTube</span>
+                  <i data-lucide="external-link" class="w-3 h-3"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="lg:col-span-5 space-y-4">
+              <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-forest-50 text-forest-800 text-xs font-bold uppercase tracking-wider border border-forest-100">
+                <i data-lucide="sparkles" class="w-3.5 h-3.5 text-forest-600"></i>
+                ${v.categoria}
+              </span>
+
+              <h2 class="font-serif text-2xl sm:text-3xl text-forest-950 font-bold leading-tight">
+                ${v.titulo}
+              </h2>
+
+              <div class="flex items-center gap-2 text-sm text-forest-800 font-bold">
+                <div class="w-7 h-7 rounded-full bg-forest-900 text-gold-400 flex items-center justify-center shrink-0">
+                  <i data-lucide="mic" class="w-3.5 h-3.5"></i>
+                </div>
+                <span>Expositor: <span class="text-forest-950 font-extrabold">${v.palestrante}</span></span>
+              </div>
+
+              ${v.citacao ? `
+                <blockquote class="p-3.5 rounded-2xl bg-sand-50 border-l-4 border-forest-600 italic text-xs sm:text-sm text-gray-700 leading-relaxed">
+                  "${v.citacao}"
+                  <footer class="not-italic font-sans text-xs text-forest-800 font-bold mt-1">
+                    — ${v.fonteCitacao}
+                  </footer>
+                </blockquote>
+              ` : ""}
+
+              <div class="pt-2 flex flex-col sm:flex-row gap-2.5">
+                <button onclick="abrirLightbox('${v.thumbnail}', '${v.titulo} - ${v.palestrante}')" class="flex-1 inline-flex items-center justify-center gap-2 px-4 py-2.5 text-xs font-bold uppercase tracking-wider text-forest-950 bg-sand-100 hover:bg-sand-200 border border-sand-300 rounded-xl transition">
+                  <i data-lucide="image" class="w-3.5 h-3.5 text-forest-700"></i>
+                  <span>Ver Capa Oficial</span>
+                </button>
+                ${v.cartaz && v.cartaz !== v.thumbnail ? `
+                  <button onclick="abrirLightbox('${v.cartaz}', 'Cartaz: ${v.categoria}')" class="flex-1 inline-flex items-center justify-center gap-2 px-4 py-2.5 text-xs font-bold uppercase tracking-wider text-forest-950 bg-sand-100 hover:bg-sand-200 border border-sand-300 rounded-xl transition">
+                    <i data-lucide="maximize-2" class="w-3.5 h-3.5 text-forest-700"></i>
+                    <span>Ver Cartaz</span>
+                  </button>
+                ` : ""}
+              </div>
+            </div>
+          </div>
+        </div>
+      `;
+
+      if (window.lucide) lucide.createIcons();
+    }
+
+    function renderizarTimeline() {
+      const grid = document.getElementById("timeline-grid");
+      const contador = document.getElementById("contador-videos");
+      if (!grid) return;
+
+      let listaFiltrada = ACERVO_PALESTRAS;
+      if (filtroAtual !== "todas") {
+        if (filtroAtual === "Ação Social") {
+          listaFiltrada = ACERVO_PALESTRAS.filter(v => v.categoria.includes("Ação Social"));
+        } else {
+          listaFiltrada = ACERVO_PALESTRAS.filter(v => v.palestrante.includes(filtroAtual));
+        }
+      }
+
+      if (contador) {
+        contador.innerText = `${listaFiltrada.length} Vídeo(s) Encontrado(s)`;
+      }
+
+      grid.innerHTML = listaFiltrada.map((v, idx) => {
+        const isAtivo = v.id === videoAtivoId;
+        return `
+          <div class="bg-white rounded-3xl p-5 shadow-sm border ${isAtivo ? 'border-forest-600 ring-2 ring-forest-600/20' : 'border-sand-200'} flex flex-col justify-between hover:shadow-xl transition-all duration-300 group">
+            <div>
+              <!-- Thumbnail com Play e Badge de Data -->
+              <div class="rounded-2xl overflow-hidden mb-4 aspect-video bg-black cursor-pointer relative" onclick="tocarEIrParaTopo('${v.id}')">
+                <img src="${v.thumbnail}" alt="${v.titulo}" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105">
+                <div class="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-all flex items-center justify-center">
+                  <div class="w-12 h-12 rounded-full ${isAtivo ? 'bg-forest-900' : 'bg-red-600'} text-white flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
+                    <i data-lucide="${isAtivo ? 'volume-2' : 'play'}" class="w-5 h-5 fill-white ml-0.5"></i>
+                  </div>
+                </div>
+                <div class="absolute top-2.5 left-2.5 bg-forest-950/85 backdrop-blur-sm text-amber-300 text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">
+                  #0${listaFiltrada.length - idx} • ${v.dataExibicao.split(" de ")[1] || v.dataExibicao}
+                </div>
+              </div>
+
+              <!-- Metadados -->
+              <div class="flex items-center gap-2 mb-2">
+                <span class="text-[10px] font-bold uppercase tracking-wider text-forest-700 bg-forest-50 px-2.5 py-0.5 rounded-full border border-forest-100">${v.categoria}</span>
+              </div>
+
+              <h3 class="font-serif font-bold text-lg text-forest-950 mt-1 mb-2 leading-snug group-hover:text-forest-800 transition">
+                <a href="javascript:void(0)" onclick="tocarEIrParaTopo('${v.id}')">${v.titulo}</a>
+              </h3>
+              
+              <div class="flex items-center gap-2 text-xs text-gray-700 font-semibold mb-2">
+                <div class="w-5 h-5 rounded-full bg-forest-100 text-forest-800 flex items-center justify-center shrink-0">
+                  <i data-lucide="mic" class="w-3 h-3"></i>
+                </div>
+                <span>${v.palestrante}</span>
+              </div>
+
+              <p class="text-[11px] text-gray-500 font-mono mb-3">
+                <i data-lucide="calendar" class="w-3 h-3 inline mr-1 text-gray-400"></i>
+                ${v.dataExibicao} (${v.diaSemana})
+              </p>
+            </div>
+
+            <!-- Rodapé do Card -->
+            <div class="pt-3 border-t border-sand-100 flex items-center justify-between text-xs">
+              <button onclick="tocarEIrParaTopo('${v.id}')" class="text-red-600 hover:text-red-700 font-bold flex items-center gap-1.5 text-xs">
+                <i data-lucide="play-circle" class="w-4 h-4"></i>
+                <span>${isAtivo ? 'Tocando Agora' : 'Reproduzir'}</span>
+              </button>
+              
+              <a href="${v.youtubeUrl}" target="_blank" rel="noopener noreferrer" class="text-gray-500 hover:text-forest-900 font-medium text-[11px] flex items-center gap-1">
+                <span>YouTube</span>
+                <i data-lucide="external-link" class="w-3 h-3"></i>
+              </a>
+            </div>
+          </div>
+        `;
+      }).join("");
+
+      if (window.lucide) lucide.createIcons();
+    }
+
+    function tocarEIrParaTopo(id) {
+      carregarPlayerDestaque(id, true);
+      renderizarTimeline();
+      const topo = document.getElementById("player-destaque-secao");
+      if (topo) {
+        topo.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    }
+
+    function filtrarPalestras(filtro) {
+      filtroAtual = filtro;
+      document.querySelectorAll(".filtro-btn").forEach(btn => {
+        if (btn.getAttribute("data-filtro") === filtro) {
+          btn.className = "filtro-btn active px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider bg-forest-900 text-white transition shadow-sm";
+        } else {
+          btn.className = "filtro-btn px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider bg-sand-100 text-forest-900 hover:bg-sand-200 transition border border-sand-300";
+        }
+      });
+      renderizarTimeline();
+    }
+
+    // Lightbox
+    function abrirLightbox(src, caption) {
+      const modal = document.getElementById("lightbox-modal");
+      const img = document.getElementById("lightbox-img");
+      const cap = document.getElementById("lightbox-caption");
+      if (!modal || !img) return;
+      img.src = src;
+      if (cap) cap.innerText = caption || "";
+      modal.classList.remove("hidden");
+      document.body.style.overflow = "hidden";
+    }
+
+    function fecharLightbox() {
+      const modal = document.getElementById("lightbox-modal");
+      if (!modal) return;
+      modal.classList.add("hidden");
+      document.body.style.overflow = "auto";
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+      carregarPlayerDestaque(ACERVO_PALESTRAS[0].id, false);
+      renderizarTimeline();
+    });
+  </script>
+</body>
+</html>
