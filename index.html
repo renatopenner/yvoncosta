@@ -702,8 +702,8 @@
               <div class="bg-gray-950 rounded-2xl overflow-hidden shadow-xl aspect-video border border-sand-200">
                 <iframe 
                   class="w-full h-full"
-                  src="https://www.youtube-nocookie.com/embed/DslttYQabr8?rel=0" 
-                  title="Ação do Centro Espírita Yvon Costa na Colônia do Prata" 
+                  src="https://www.youtube-nocookie.com/embed/XRUrmrQzRZ8?rel=0" 
+                  title="Ação Social na Colônia do Prata - Centro Espírita Yvon Costa" 
                   frameborder="0" 
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                   allowfullscreen>
@@ -980,16 +980,14 @@
     }
   
     /* ========================================================
-       GERENCIADOR DINÂMICO DE PALESTRAS & EVENTOS
+       VIDEOTECA DINÂMICA DE PALESTRAS & AÇÕES DO CEYC
        ======================================================== */
     const LISTA_PALESTRAS = [
       {
         id: "palestra-jessie-james-reencarnacao",
-        status: "destaque", // "destaque" | "arquivo" | "programado"
-        tipo: "video",      // "video" | "evento"
         youtubeId: "FciGJRlg6TY",
         youtubeUrl: "https://youtu.be/FciGJRlg6TY",
-        badge: "Gravação Oficial • YouTube",
+        badge: "Mais Recente • 09/11",
         categoria: "Saúde Mental à Luz do Espiritismo",
         titulo: "Reencarnação: Lei de Causa e Efeito e o Livre-Arbítrio",
         palestrante: "Jessie James",
@@ -997,178 +995,241 @@
         fonteCitacao: "O Evangelho segundo o Espiritismo (Cap. IV, item 25)",
         data: "09/11/2026",
         diaSemana: "Segunda-feira",
-        horario: "19:00 h",
-        publico: "Aberto a toda a comunidade espírita e simpatizantes.",
         realizacao: "Diretoria de Assistência Espiritual (DAE) • CEYC",
         thumbnail: "assets/img/palestra-jessie-james-reencarnacao.jpg",
         cartaz: "assets/img/evento-saude-mental.jpg"
       },
       {
-        id: "evento-saude-mental-cartaz",
-        status: "arquivo",
-        tipo: "evento",
-        badge: "Série Temática DAE",
-        categoria: "Assistência Espiritual",
-        titulo: "Cartaz Oficial do Encontro",
-        palestrante: "CEYC - Diretoria de Assistência Espiritual",
-        citacao: "Encontro doutrinário aberto a todos os grupos de AE e comunidade.",
-        data: "09/11/2026",
+        id: "palestra-clodomil-influencias",
+        youtubeId: "YLWE2yN9Qc0",
+        youtubeUrl: "https://youtu.be/YLWE2yN9Qc0",
+        badge: "Gravação Oficial • 28/09",
+        categoria: "Doutrina Espírita",
+        titulo: "Influências Espirituais na Visão da Doutrina Espírita",
+        palestrante: "Clodomil Moura",
+        citacao: "Os Espíritos influem sobre os nossos pensamentos e ações muito mais do que imaginais, pois frequentemente são eles que vos dirigem.",
+        fonteCitacao: "O Livro dos Espíritos (Questão 459)",
+        data: "28/09/2026",
         diaSemana: "Segunda-feira",
-        horario: "19:00 h",
-        realizacao: "DAE • Centro Espírita Yvon Costa",
-        thumbnail: "assets/img/evento-saude-mental.jpg",
-        cartaz: "assets/img/evento-saude-mental.jpg"
+        realizacao: "Diretoria Doutrinária • CEYC",
+        thumbnail: "assets/img/palestra-clodomil-influencias.jpg",
+        cartaz: "assets/img/palestra-clodomil-influencias.jpg"
       },
       {
-        id: "palestras-dominicais-publicas",
-        status: "arquivo",
-        tipo: "programacao",
-        badge: "Todo Domingo às 09:00",
-        categoria: "Palestra Pública Dominical",
-        titulo: "Ciclo Centenário de Palestras Públicas",
-        palestrante: "Expositores da Casa e Convidados",
-        citacao: "Acolhimento fraterno, explanação doutrinária e fluidoterapia matinal para harmonização do Espírito.",
-        data: "Semanal",
-        diaSemana: "Domingos",
-        horario: "09:00 às 10:15 h",
-        realizacao: "Centro Espírita Yvon Costa",
-        thumbnail: "assets/img/cartaz-100-anos-palestras.jpg",
-        cartaz: "assets/img/cartaz-100-anos-palestras.jpg"
+        id: "palestra-romulo-ansiedade",
+        youtubeId: "E_n1nz4I7y0",
+        youtubeUrl: "https://youtu.be/E_n1nz4I7y0",
+        badge: "Gravação Oficial • 31/08",
+        categoria: "Saúde Mental & Equilíbrio",
+        titulo: "Ansiedade à Luz do Espiritismo",
+        palestrante: "Rômulo Leite",
+        citacao: "Não vos inquieteis pelo dia de amanhã, pois o dia de amanhã trará as suas preocupações. A cada dia basta o seu fardo.",
+        fonteCitacao: "Evangelho Segundo o Espiritismo (Allan Kardec)",
+        data: "31/08/2026",
+        diaSemana: "Segunda-feira",
+        realizacao: "Diretoria de Assistência Espiritual • CEYC",
+        thumbnail: "assets/img/palestra-romulo-ansiedade.jpg",
+        cartaz: "assets/img/palestra-romulo-ansiedade.jpg"
+      },
+      {
+        id: "palestra-clodomil-saude-mental",
+        youtubeId: "yFd-xaqoan0",
+        youtubeUrl: "https://youtu.be/yFd-xaqoan0",
+        badge: "Gravação Oficial • 17/08",
+        categoria: "Saúde Mental à Luz do Espiritismo",
+        titulo: "Saúde Mental à Luz do Espiritismo",
+        palestrante: "Clodomil Moura",
+        citacao: "O equilíbrio psíquico e a paz interior nascem da compreensão das leis morais e da prática viva do Evangelho.",
+        fonteCitacao: "Doutrina Espírita",
+        data: "17/08/2026",
+        diaSemana: "Segunda-feira",
+        realizacao: "Diretoria de Assistência Espiritual • CEYC",
+        thumbnail: "assets/img/palestra-clodomil-saude-mental.jpg",
+        cartaz: "assets/img/palestra-clodomil-saude-mental.jpg"
+      },
+      {
+        id: "acao-colonia-prata-2026",
+        youtubeId: "XRUrmrQzRZ8",
+        youtubeUrl: "https://youtu.be/XRUrmrQzRZ8",
+        badge: "Registro Especial • Abril 2026",
+        categoria: "Solidariedade em Ação",
+        titulo: "Ação Social na Colônia do Prata",
+        palestrante: "Caravana Fraterna dos Voluntários",
+        citacao: "A verdadeira caridade é paciente e benigna; ela não busca seus próprios interesses.",
+        fonteCitacao: "O Evangelho segundo o Espiritismo",
+        data: "Abril/2026",
+        diaSemana: "Caravana Fraterna",
+        realizacao: "Departamento Social • CEYC",
+        thumbnail: "assets/img/acao-colonia-prata-2026.jpg",
+        cartaz: "assets/img/acao-colonia-prata-2026.jpg"
       }
     ];
 
-    function renderizarPalestras() {
+    let idPalestraAtiva = LISTA_PALESTRAS[0].id;
+
+    function selecionarPalestra(id, autoPlay = false) {
+      idPalestraAtiva = id;
+      renderizarPalestras(autoPlay);
+      const container = document.getElementById("destaque-palestra-container");
+      if (container) {
+        container.scrollIntoView({ behavior: "smooth", block: "center" });
+      }
+    }
+
+    function renderizarPalestras(autoPlay = false) {
       const containerDestaque = document.getElementById("destaque-palestra-container");
       const gridProximos = document.getElementById("proximos-eventos-grid");
       if (!containerDestaque) return;
 
-      const destaque = LISTA_PALESTRAS.find(p => p.status === "destaque") || LISTA_PALESTRAS[0];
-      const outros = LISTA_PALESTRAS.filter(p => p !== destaque);
+      const destaque = LISTA_PALESTRAS.find(p => p.id === idPalestraAtiva) || LISTA_PALESTRAS[0];
+      const outros = LISTA_PALESTRAS.filter(p => p.id !== destaque.id);
 
-      if (destaque) {
-        containerDestaque.innerHTML = `
-          <div class="bg-white rounded-3xl shadow-xl border-2 border-forest-600/30 overflow-hidden relative">
+      const embedSrc = `https://www.youtube-nocookie.com/embed/${destaque.youtubeId}?rel=0${autoPlay ? '&autoplay=1' : ''}`;
+
+      containerDestaque.innerHTML = `
+        <div class="bg-white rounded-3xl shadow-xl border-2 border-forest-600/30 overflow-hidden relative transition-all duration-300">
+          
+          <!-- Barra Superior do Card -->
+          <div class="bg-forest-900 text-white px-6 py-3 flex flex-wrap items-center justify-between gap-3 text-xs font-semibold">
+            <div class="flex items-center gap-2">
+              <span class="w-2.5 h-2.5 rounded-full bg-red-500 animate-pulse"></span>
+              <span class="uppercase tracking-wider text-amber-300 font-bold">${destaque.badge}</span>
+              <span class="text-forest-400">•</span>
+              <span>${destaque.diaSemana}, ${destaque.data}</span>
+            </div>
+            <div class="text-[11px] text-forest-200 tracking-wide font-normal">
+              ${destaque.realizacao}
+            </div>
+          </div>
+
+          <!-- Corpo do Destaque (Player do YouTube + Informações) -->
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-center p-6 sm:p-8 lg:p-10">
             
-            <!-- Barra Superior do Card -->
-            <div class="bg-forest-900 text-white px-6 py-3 flex flex-wrap items-center justify-between gap-3 text-xs font-semibold">
-              <div class="flex items-center gap-2">
-                <span class="w-2.5 h-2.5 rounded-full bg-red-500 animate-pulse"></span>
-                <span class="uppercase tracking-wider text-amber-300 font-bold">${destaque.badge}</span>
-                <span class="text-forest-400">•</span>
-                <span>${destaque.diaSemana}, ${destaque.data}</span>
+            <!-- Coluna 1: Player de Vídeo Responsivo do YouTube -->
+            <div class="lg:col-span-7">
+              <div class="relative bg-black rounded-2xl overflow-hidden shadow-2xl aspect-video border border-sand-200 group">
+                <iframe 
+                  id="iframe-player-destaque"
+                  class="w-full h-full"
+                  src="${embedSrc}" 
+                  title="${destaque.titulo}" 
+                  frameborder="0" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                  allowfullscreen>
+                </iframe>
               </div>
-              <div class="text-[11px] text-forest-200 tracking-wide font-normal">
-                ${destaque.realizacao}
+
+              <!-- Sub-barra com Ações do Vídeo -->
+              <div class="mt-3.5 flex flex-wrap items-center justify-between gap-2 text-xs">
+                <div class="flex items-center gap-2 text-gray-500 text-[11px]">
+                  <i data-lucide="video" class="w-3.5 h-3.5 text-red-600"></i>
+                  <span>Vídeo Oficial • Centro Espírita Yvon Costa</span>
+                </div>
+                <a href="${destaque.youtubeUrl}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 text-red-600 hover:text-red-700 font-bold text-xs uppercase tracking-wider">
+                  <span>Abrir no YouTube</span>
+                  <i data-lucide="external-link" class="w-3 h-3"></i>
+                </a>
               </div>
             </div>
 
-            <!-- Corpo do Destaque (Player do YouTube + Informações) -->
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-center p-6 sm:p-8 lg:p-10">
+            <!-- Coluna 2: Detalhes, Palestrante e Citação -->
+            <div class="lg:col-span-5 space-y-4">
               
-              <!-- Coluna 1: Player de Vídeo Responsivo do YouTube -->
-              <div class="lg:col-span-7">
-                <div class="relative bg-black rounded-2xl overflow-hidden shadow-2xl aspect-video border border-sand-200 group">
-                  <iframe 
-                    class="w-full h-full"
-                    src="https://www.youtube-nocookie.com/embed/${destaque.youtubeId}?rel=0" 
-                    title="${destaque.titulo}" 
-                    frameborder="0" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                    allowfullscreen>
-                  </iframe>
-                </div>
+              <div>
+                <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-forest-50 text-forest-800 text-xs font-bold uppercase tracking-wider border border-forest-100 mb-2">
+                  <i data-lucide="sparkles" class="w-3.5 h-3.5 text-forest-600"></i>
+                  ${destaque.categoria}
+                </span>
+                
+                <h3 class="font-serif text-2xl sm:text-3xl text-forest-950 font-bold leading-tight">
+                  ${destaque.titulo}
+                </h3>
 
-                <!-- Sub-barra com Ações do Vídeo -->
-                <div class="mt-3.5 flex flex-wrap items-center justify-between gap-2 text-xs">
-                  <div class="flex items-center gap-2 text-gray-500 text-[11px]">
-                    <i data-lucide="video" class="w-3.5 h-3.5 text-red-600"></i>
-                    <span>Gravação em alta definição no canal do YouTube</span>
+                <div class="mt-2.5 flex items-center gap-2 text-sm text-forest-800 font-bold">
+                  <div class="w-7 h-7 rounded-full bg-forest-900 text-gold-400 flex items-center justify-center shrink-0">
+                    <i data-lucide="mic" class="w-3.5 h-3.5"></i>
                   </div>
-                  <a href="${destaque.youtubeUrl}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 text-red-600 hover:text-red-700 font-bold text-xs uppercase tracking-wider">
-                    <span>Abrir no YouTube</span>
-                    <i data-lucide="external-link" class="w-3 h-3"></i>
-                  </a>
+                  <span>Palestrante: <span class="text-forest-950 font-extrabold">${destaque.palestrante}</span></span>
                 </div>
               </div>
 
-              <!-- Coluna 2: Detalhes, Palestrante e Citação -->
-              <div class="lg:col-span-5 space-y-4">
-                
-                <div>
-                  <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-forest-50 text-forest-800 text-xs font-bold uppercase tracking-wider border border-forest-100 mb-2">
-                    <i data-lucide="sparkles" class="w-3.5 h-3.5 text-forest-600"></i>
-                    ${destaque.categoria}
-                  </span>
-                  
-                  <h3 class="font-serif text-2xl sm:text-3xl text-forest-950 font-bold leading-tight">
-                    ${destaque.titulo}
-                  </h3>
+              ${destaque.citacao ? `
+                <blockquote class="p-3.5 rounded-2xl bg-sand-50 border-l-4 border-forest-600 italic text-xs sm:text-sm text-gray-700 leading-relaxed">
+                  "${destaque.citacao}"
+                  <footer class="not-italic font-sans text-xs text-forest-800 font-bold mt-1">
+                    — ${destaque.fonteCitacao}
+                  </footer>
+                </blockquote>
+              ` : ""}
 
-                  <div class="mt-2.5 flex items-center gap-2 text-sm text-forest-800 font-bold">
-                    <div class="w-7 h-7 rounded-full bg-forest-900 text-gold-400 flex items-center justify-center shrink-0">
-                      <i data-lucide="mic" class="w-3.5 h-3.5"></i>
-                    </div>
-                    <span>Palestrante: <span class="text-forest-950 font-extrabold">${destaque.palestrante}</span></span>
-                  </div>
-                </div>
+              <!-- Botões para Ampliar as Imagens Oficiais (Capa e Cartaz) -->
+              <div class="pt-2 flex flex-col sm:flex-row gap-2.5">
+                <button onclick="abrirLightbox('${destaque.thumbnail}', 'Palestra: ${destaque.titulo} - ${destaque.palestrante}')" class="flex-1 inline-flex items-center justify-center gap-2 px-4 py-2.5 text-xs font-bold uppercase tracking-wider text-forest-950 bg-sand-100 hover:bg-sand-200 border border-sand-300 rounded-xl transition">
+                  <i data-lucide="image" class="w-3.5 h-3.5 text-forest-700"></i>
+                  <span>Ver Capa em Tela Cheia</span>
+                </button>
 
-                ${destaque.citacao ? `
-                  <blockquote class="p-3.5 rounded-2xl bg-sand-50 border-l-4 border-forest-600 italic text-xs sm:text-sm text-gray-700 leading-relaxed">
-                    "${destaque.citacao}"
-                    <footer class="not-italic font-sans text-xs text-forest-800 font-bold mt-1">
-                      — ${destaque.fonteCitacao}
-                    </footer>
-                  </blockquote>
-                ` : ""}
-
-                <!-- Botões para Ampliar as Imagens Oficiais (Capa e Cartaz) -->
-                <div class="pt-2 flex flex-col sm:flex-row gap-2.5">
-                  <button onclick="abrirLightbox('${destaque.thumbnail}', 'Palestra: ${destaque.titulo} - ${destaque.palestrante}')" class="flex-1 inline-flex items-center justify-center gap-2 px-4 py-2.5 text-xs font-bold uppercase tracking-wider text-forest-950 bg-sand-100 hover:bg-sand-200 border border-sand-300 rounded-xl transition">
-                    <i data-lucide="image" class="w-3.5 h-3.5 text-forest-700"></i>
-                    <span>Ver Capa Oficial</span>
-                  </button>
-
+                ${destaque.cartaz !== destaque.thumbnail ? `
                   <button onclick="abrirLightbox('${destaque.cartaz}', 'Cartaz: ${destaque.categoria}')" class="flex-1 inline-flex items-center justify-center gap-2 px-4 py-2.5 text-xs font-bold uppercase tracking-wider text-forest-950 bg-sand-100 hover:bg-sand-200 border border-sand-300 rounded-xl transition">
                     <i data-lucide="maximize-2" class="w-3.5 h-3.5 text-forest-700"></i>
                     <span>Ver Cartaz</span>
                   </button>
-                </div>
+                ` : ""}
+              </div>
 
-                <div class="pt-1 border-t border-sand-200 flex items-center justify-between text-[11px] text-gray-500">
-                  <span>${destaque.realizacao}</span>
-                  <a href="#localizacao" class="text-forest-700 hover:text-forest-900 font-semibold">Sede CEYC • São Brás</a>
-                </div>
-
+              <div class="pt-1 border-t border-sand-200 flex items-center justify-between text-[11px] text-gray-500">
+                <span>${destaque.realizacao}</span>
+                <a href="#localizacao" class="text-forest-700 hover:text-forest-900 font-semibold">Sede CEYC • São Brás</a>
               </div>
 
             </div>
 
           </div>
-        `;
-      }
 
-      // Renderiza as outras palestras no grid
+        </div>
+      `;
+
+      // Renderiza todas as outras palestras na galeria com botao de assistir
       if (outros.length > 0 && gridProximos) {
         gridProximos.innerHTML = outros.map(p => `
-          <div class="bg-white rounded-2xl p-5 shadow-sm border border-sand-200 flex flex-col justify-between hover:shadow-md transition">
+          <div class="bg-white rounded-2xl p-5 shadow-sm border border-sand-200 flex flex-col justify-between hover:shadow-lg transition-all duration-200 group">
             <div>
-              <div class="rounded-xl overflow-hidden mb-4 aspect-[16/10] bg-sand-100 cursor-pointer relative group" onclick="abrirLightbox('${p.thumbnail}', '${p.titulo}')">
+              <div class="rounded-xl overflow-hidden mb-4 aspect-video bg-black cursor-pointer relative" onclick="selecionarPalestra('${p.id}', true)">
                 <img src="${p.thumbnail}" alt="${p.titulo}" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105">
-                <div class="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-white text-xs font-bold uppercase tracking-wider gap-1.5">
-                  <i data-lucide="zoom-in" class="w-4 h-4"></i>
-                  <span>Ampliar</span>
+                <div class="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-all flex items-center justify-center">
+                  <div class="w-12 h-12 rounded-full bg-red-600/90 text-white flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
+                    <i data-lucide="play" class="w-5 h-5 fill-white ml-0.5"></i>
+                  </div>
+                </div>
+                <div class="absolute bottom-2 right-2 bg-black/80 text-white text-[10px] font-bold px-2 py-0.5 rounded font-mono">
+                  ${p.badge}
                 </div>
               </div>
-              <span class="text-[10px] font-bold uppercase tracking-wider text-forest-700 bg-forest-50 px-2.5 py-1 rounded-full border border-forest-100">${p.categoria}</span>
-              <h4 class="font-serif font-bold text-base text-forest-950 mt-2 mb-1 leading-snug">${p.titulo}</h4>
-              <p class="text-xs text-gray-600 font-medium">${p.palestrante}</p>
+
+              <div class="flex items-center gap-2 mb-2">
+                <span class="text-[10px] font-bold uppercase tracking-wider text-forest-700 bg-forest-50 px-2.5 py-0.5 rounded-full border border-forest-100">${p.categoria}</span>
+              </div>
+
+              <h4 class="font-serif font-bold text-base text-forest-950 mt-1 mb-1 leading-snug group-hover:text-forest-800 transition">
+                <a href="javascript:void(0)" onclick="selecionarPalestra('${p.id}', true)">${p.titulo}</a>
+              </h4>
+              
+              <div class="flex items-center gap-1.5 text-xs text-gray-700 font-semibold mt-1">
+                <i data-lucide="user" class="w-3.5 h-3.5 text-forest-600"></i>
+                <span>${p.palestrante}</span>
+              </div>
             </div>
+
             <div class="mt-4 pt-3 border-t border-sand-100 flex items-center justify-between text-xs">
-              <span class="text-gray-500 font-mono font-bold text-[11px]">${p.badge}</span>
-              <button onclick="abrirLightbox('${p.cartaz}', '${p.titulo}')" class="text-forest-800 hover:text-forest-950 font-bold flex items-center gap-1">
-                <span>Ver Imagem</span>
-                <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
+              <button onclick="selecionarPalestra('${p.id}', true)" class="text-red-600 hover:text-red-700 font-bold flex items-center gap-1">
+                <i data-lucide="play-circle" class="w-4 h-4"></i>
+                <span>Assistir no Site</span>
               </button>
+              
+              <a href="${p.youtubeUrl}" target="_blank" rel="noopener noreferrer" class="text-gray-500 hover:text-forest-900 font-medium text-[11px] flex items-center gap-1">
+                <span>YouTube</span>
+                <i data-lucide="external-link" class="w-3 h-3"></i>
+              </a>
             </div>
           </div>
         `).join("");
@@ -1200,7 +1261,7 @@
     }
 
     // Chamar renderizacao ao carregar
-    document.addEventListener("DOMContentLoaded", renderizarPalestras);
+    document.addEventListener("DOMContentLoaded", () => renderizarPalestras(false));
 
   </script>
 </body>
