@@ -153,7 +153,7 @@
         <!-- Menu Desktop (Espaçado, Arejado, Sem Amontoar) -->
         <nav class="hidden lg:flex items-center gap-6 xl:gap-8 text-xs font-semibold uppercase tracking-wider text-gray-600">
           <a href="#inicio" class="whitespace-nowrap hover:text-forest-800 transition py-1 border-b-2 border-transparent hover:border-forest-700">Início</a>
-          <a href="#eventos" class="whitespace-nowrap text-amber-800 font-bold bg-amber-50 px-3 py-1.5 rounded-full border border-amber-200/90 hover:bg-amber-100 transition inline-flex items-center gap-1.5"><span class="w-1.5 h-1.5 rounded-full bg-red-500 animate-pulse"></span> Palestras & Eventos</a>
+          <a href="#palestras" class="whitespace-nowrap text-amber-900 font-bold bg-amber-50 px-3.5 py-1.5 rounded-full border border-amber-200/90 hover:bg-amber-100 transition inline-flex items-center gap-1.5"><i data-lucide="play-circle" class="w-3.5 h-3.5 text-red-600"></i> Palestras</a>
           <a href="#sobre" class="whitespace-nowrap hover:text-forest-800 transition py-1 border-b-2 border-transparent hover:border-forest-700">A Casa</a>
           <a href="#programacao" class="whitespace-nowrap hover:text-forest-800 transition py-1 border-b-2 border-transparent hover:border-forest-700">Horários</a>
           <a href="#atendimento" class="whitespace-nowrap hover:text-forest-800 transition py-1 border-b-2 border-transparent hover:border-forest-700">Atendimento Fraterno</a>
@@ -175,7 +175,10 @@
     <!-- Dropdown Mobile -->
     <div id="mobile-menu" class="hidden lg:hidden bg-sand-50/95 backdrop-blur-xl border-b border-sand-200 px-6 py-6 shadow-2xl space-y-4">
       <a href="#inicio" class="mobile-link block text-sm font-semibold uppercase tracking-wider text-forest-950 hover:text-forest-700">Início</a>
-      <a href="#eventos" class="mobile-link block text-sm font-bold uppercase tracking-wider text-amber-800 bg-amber-50 p-2.5 rounded-xl border border-amber-200">✨ Palestras & Eventos</a>
+      <a href="#palestras" class="mobile-link block text-sm font-bold uppercase tracking-wider text-amber-900 bg-amber-50 p-2.5 rounded-xl border border-amber-200 flex items-center justify-between">
+        <span>🎥 Palestras Gravadas & Eventos</span>
+        <span class="text-[10px] bg-red-600 text-white font-sans font-bold px-2 py-0.5 rounded-full uppercase">Novo Vídeo</span>
+      </a>
       <a href="#sobre" class="mobile-link block text-sm font-semibold uppercase tracking-wider text-forest-950 hover:text-forest-700">Sobre a Instituição</a>
       <a href="#programacao" class="mobile-link block text-sm font-semibold uppercase tracking-wider text-forest-950 hover:text-forest-700">Horários & Programação</a>
       <a href="#atendimento" class="mobile-link block text-sm font-semibold uppercase tracking-wider text-forest-950 hover:text-forest-700">Atendimento Fraterno</a>
@@ -222,7 +225,7 @@
 
         <!-- Ações Principais -->
         <div class="flex flex-col sm:flex-row items-center justify-center gap-3.5 sm:gap-4 mb-14">
-          <a href="#programacao" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-8 py-3.5 text-xs font-bold uppercase tracking-wider text-white bg-forest-900 hover:bg-forest-800 rounded-full shadow-lg shadow-forest-950/15 transition-all hover:-translate-y-0.5">
+          <a href="#palestras" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-8 py-3.5 text-xs font-bold uppercase tracking-wider text-white bg-forest-900 hover:bg-forest-800 rounded-full shadow-lg shadow-forest-950/15 transition-all hover:-translate-y-0.5">
             <i data-lucide="calendar" class="w-4 h-4 text-gold-400"></i>
             <span>Ver Horários & Palestras</span>
           </a>
@@ -264,43 +267,44 @@
       </div>
     </section>
 
-    <!-- PALESTRAS & EVENTOS ESPECIAIS (MODULAR E DINÂMICO) -->
-    <section id="eventos" class="py-16 bg-gradient-to-b from-sand-100 via-sand-50 to-white border-b border-sand-200/80">
+    <!-- PALESTRAS GRAVADAS & EVENTOS ESPECIAIS -->
+    <section id="palestras" class="py-16 bg-gradient-to-b from-sand-100 via-sand-50 to-white border-b border-sand-200/80">
+      <div id="eventos"></div>
       <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         
         <!-- Cabecalho da Secao -->
         <div class="text-center max-w-2xl mx-auto mb-12">
           <div class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-forest-700 mb-2">
             <span class="w-6 h-px bg-forest-600"></span>
-            <span>Programação Especial & Temática</span>
+            <span>Estudo, Reflexão & Doutrina</span>
             <span class="w-6 h-px bg-forest-600"></span>
           </div>
-          <h2 class="font-serif text-3xl sm:text-4xl text-forest-950 font-bold">Palestras & Eventos</h2>
+          <h2 class="font-serif text-3xl sm:text-4xl text-forest-950 font-bold">Palestras Doutrinárias</h2>
           <p class="text-sm text-gray-600 mt-2 font-light">
-            Encontros doutrinários, seminários e estudos especiais abertos a toda a comunidade.
+            Acompanhe as palestras gravadas em nossa Casa e a programação doutrinária do Centro Espírita Yvon Costa.
           </p>
         </div>
 
-        <!-- Container do Evento Principal em Destaque -->
+        <!-- Container do Destaque da Palestra (Com Player de Video YouTube) -->
         <div id="destaque-palestra-container">
-          <!-- Renderizado automaticamente via JavaScript abaixo -->
+          <!-- Renderizado dinamicamente via JavaScript -->
         </div>
 
-        <!-- Grid de Proximas Palestras e Eventos Programados -->
-        <div id="proximos-eventos-grid" class="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 hidden">
-          <!-- Novos cards serao inseridos dinamicamente aqui -->
+        <!-- Grid de Outras Palestras, Cartazes e Programação -->
+        <div id="proximos-eventos-grid" class="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <!-- Renderizado dinamicamente via JavaScript -->
         </div>
 
-        <!-- Area de Instrucao / Botao para Adicionar Novas -->
+        <!-- Barra de Informações Presenciais -->
         <div class="mt-10 p-4 rounded-2xl bg-white border border-sand-200 shadow-sm flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-gray-600">
           <div class="flex items-center gap-2.5">
             <div class="w-7 h-7 rounded-full bg-forest-100 text-forest-800 flex items-center justify-center shrink-0">
               <i data-lucide="info" class="w-4 h-4"></i>
             </div>
-            <span><strong>Frequência:</strong> Todas as nossas palestras são livres, com entrada franca e sem necessidade de inscrição prévia.</span>
+            <span><strong>Palestras Presenciais:</strong> Nossas palestras públicas aos domingos (09h) e reuniões de estudo são livres, fraternas e abertas a todos.</span>
           </div>
-          <a href="#localizacao" class="shrink-0 text-forest-800 hover:text-forest-950 font-bold uppercase tracking-wider flex items-center gap-1">
-            <span>Ver como chegar à sede</span>
+          <a href="#programacao" class="shrink-0 text-forest-800 hover:text-forest-950 font-bold uppercase tracking-wider flex items-center gap-1">
+            <span>Ver grade de horários</span>
             <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
           </a>
         </div>
@@ -977,44 +981,60 @@
   
     /* ========================================================
        GERENCIADOR DINÂMICO DE PALESTRAS & EVENTOS
-       ========================================================
-       Para adicionar uma nova palestra no futuro, basta inserir
-       um novo item no início do array LISTA_PALESTRAS abaixo!
        ======================================================== */
     const LISTA_PALESTRAS = [
       {
-        id: "saude-mental-reencarnacao",
-        status: "destaque", // "destaque" | "programado" | "realizado"
-        badge: "Hoje • 09/11 às 19:00",
+        id: "palestra-jessie-james-reencarnacao",
+        status: "destaque", // "destaque" | "arquivo" | "programado"
+        tipo: "video",      // "video" | "evento"
+        youtubeId: "FciGJRlg6TY",
+        youtubeUrl: "https://youtu.be/FciGJRlg6TY",
+        badge: "Gravação Oficial • YouTube",
         categoria: "Saúde Mental à Luz do Espiritismo",
         titulo: "Reencarnação: Lei de Causa e Efeito e o Livre-Arbítrio",
+        palestrante: "Jessie James",
         citacao: "A encarnação, para todos os Espíritos, é apenas um estado transitório. É uma empreitada que Deus lhes impõe, no início da existência, como primeira prova do uso que farão de seu livre-arbítrio.",
         fonteCitacao: "O Evangelho segundo o Espiritismo (Cap. IV, item 25)",
-        data: "09/11",
+        data: "09/11/2026",
         diaSemana: "Segunda-feira",
-        horario: "19:00 às 20:00 h",
-        publico: "Direcionado a todos os grupos de AE e aberto ao público em geral.",
+        horario: "19:00 h",
+        publico: "Aberto a toda a comunidade espírita e simpatizantes.",
         realizacao: "Diretoria de Assistência Espiritual (DAE) • CEYC",
+        thumbnail: "assets/img/palestra-jessie-james-reencarnacao.jpg",
         cartaz: "assets/img/evento-saude-mental.jpg"
-      }
-      /* EXEMPLO PARA UMA PRÓXIMA PALESTRA (basta descomentar e preencher):
-      ,
+      },
       {
-        id: "palestra-exemplo-proxima",
-        status: "programado",
-        badge: "Próxima Palestra",
-        categoria: "Palestra Pública Dominical",
-        titulo: "Tema da Próxima Palestra",
-        citacao: "Frase ou citação de reflexão...",
-        fonteCitacao: "Livro dos Espíritos",
-        data: "16/11",
+        id: "evento-saude-mental-cartaz",
+        status: "arquivo",
+        tipo: "evento",
+        badge: "Série Temática DAE",
+        categoria: "Assistência Espiritual",
+        titulo: "Cartaz Oficial do Encontro",
+        palestrante: "CEYC - Diretoria de Assistência Espiritual",
+        citacao: "Encontro doutrinário aberto a todos os grupos de AE e comunidade.",
+        data: "09/11/2026",
         diaSemana: "Segunda-feira",
-        horario: "19:00 às 20:00 h",
-        publico: "Aberto ao público em geral.",
-        realizacao: "Centro Espírita Yvon Costa",
+        horario: "19:00 h",
+        realizacao: "DAE • Centro Espírita Yvon Costa",
+        thumbnail: "assets/img/evento-saude-mental.jpg",
         cartaz: "assets/img/evento-saude-mental.jpg"
+      },
+      {
+        id: "palestras-dominicais-publicas",
+        status: "arquivo",
+        tipo: "programacao",
+        badge: "Todo Domingo às 09:00",
+        categoria: "Palestra Pública Dominical",
+        titulo: "Ciclo Centenário de Palestras Públicas",
+        palestrante: "Expositores da Casa e Convidados",
+        citacao: "Acolhimento fraterno, explanação doutrinária e fluidoterapia matinal para harmonização do Espírito.",
+        data: "Semanal",
+        diaSemana: "Domingos",
+        horario: "09:00 às 10:15 h",
+        realizacao: "Centro Espírita Yvon Costa",
+        thumbnail: "assets/img/cartaz-100-anos-palestras.jpg",
+        cartaz: "assets/img/cartaz-100-anos-palestras.jpg"
       }
-      */
     ];
 
     function renderizarPalestras() {
@@ -1028,108 +1048,127 @@
       if (destaque) {
         containerDestaque.innerHTML = `
           <div class="bg-white rounded-3xl shadow-xl border-2 border-forest-600/30 overflow-hidden relative">
-            <div class="bg-forest-900 text-white px-6 py-2.5 flex flex-wrap items-center justify-between gap-3 text-xs font-semibold">
+            
+            <!-- Barra Superior do Card -->
+            <div class="bg-forest-900 text-white px-6 py-3 flex flex-wrap items-center justify-between gap-3 text-xs font-semibold">
               <div class="flex items-center gap-2">
                 <span class="w-2.5 h-2.5 rounded-full bg-red-500 animate-pulse"></span>
                 <span class="uppercase tracking-wider text-amber-300 font-bold">${destaque.badge}</span>
                 <span class="text-forest-400">•</span>
-                <span>${destaque.diaSemana}, ${destaque.data} às ${destaque.horario.split(" ")[0]}</span>
+                <span>${destaque.diaSemana}, ${destaque.data}</span>
               </div>
               <div class="text-[11px] text-forest-200 tracking-wide font-normal">
                 ${destaque.realizacao}
               </div>
             </div>
 
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center p-6 sm:p-10 lg:p-12">
-              <div class="lg:col-span-7 space-y-6">
+            <!-- Corpo do Destaque (Player do YouTube + Informações) -->
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-center p-6 sm:p-8 lg:p-10">
+              
+              <!-- Coluna 1: Player de Vídeo Responsivo do YouTube -->
+              <div class="lg:col-span-7">
+                <div class="relative bg-black rounded-2xl overflow-hidden shadow-2xl aspect-video border border-sand-200 group">
+                  <iframe 
+                    class="w-full h-full"
+                    src="https://www.youtube-nocookie.com/embed/${destaque.youtubeId}?rel=0" 
+                    title="${destaque.titulo}" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen>
+                  </iframe>
+                </div>
+
+                <!-- Sub-barra com Ações do Vídeo -->
+                <div class="mt-3.5 flex flex-wrap items-center justify-between gap-2 text-xs">
+                  <div class="flex items-center gap-2 text-gray-500 text-[11px]">
+                    <i data-lucide="video" class="w-3.5 h-3.5 text-red-600"></i>
+                    <span>Gravação em alta definição no canal do YouTube</span>
+                  </div>
+                  <a href="${destaque.youtubeUrl}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 text-red-600 hover:text-red-700 font-bold text-xs uppercase tracking-wider">
+                    <span>Abrir no YouTube</span>
+                    <i data-lucide="external-link" class="w-3 h-3"></i>
+                  </a>
+                </div>
+              </div>
+
+              <!-- Coluna 2: Detalhes, Palestrante e Citação -->
+              <div class="lg:col-span-5 space-y-4">
+                
                 <div>
-                  <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-forest-50 text-forest-800 text-xs font-bold uppercase tracking-wider border border-forest-100 mb-3">
+                  <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-forest-50 text-forest-800 text-xs font-bold uppercase tracking-wider border border-forest-100 mb-2">
                     <i data-lucide="sparkles" class="w-3.5 h-3.5 text-forest-600"></i>
                     ${destaque.categoria}
                   </span>
-                  <h3 class="font-serif text-2xl sm:text-3xl lg:text-4xl text-forest-950 font-bold leading-tight">
+                  
+                  <h3 class="font-serif text-2xl sm:text-3xl text-forest-950 font-bold leading-tight">
                     ${destaque.titulo}
                   </h3>
+
+                  <div class="mt-2.5 flex items-center gap-2 text-sm text-forest-800 font-bold">
+                    <div class="w-7 h-7 rounded-full bg-forest-900 text-gold-400 flex items-center justify-center shrink-0">
+                      <i data-lucide="mic" class="w-3.5 h-3.5"></i>
+                    </div>
+                    <span>Palestrante: <span class="text-forest-950 font-extrabold">${destaque.palestrante}</span></span>
+                  </div>
                 </div>
 
                 ${destaque.citacao ? `
-                  <blockquote class="p-4 rounded-2xl bg-sand-50 border-l-4 border-forest-600 italic text-sm text-gray-700 leading-relaxed">
+                  <blockquote class="p-3.5 rounded-2xl bg-sand-50 border-l-4 border-forest-600 italic text-xs sm:text-sm text-gray-700 leading-relaxed">
                     "${destaque.citacao}"
-                    <footer class="not-italic font-sans text-xs text-forest-800 font-bold mt-1.5">
+                    <footer class="not-italic font-sans text-xs text-forest-800 font-bold mt-1">
                       — ${destaque.fonteCitacao}
                     </footer>
                   </blockquote>
                 ` : ""}
 
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs sm:text-sm">
-                  <div class="p-3.5 rounded-xl bg-forest-50/70 border border-forest-100/80 flex items-start gap-3">
-                    <div class="w-8 h-8 rounded-lg bg-forest-900 text-gold-400 flex items-center justify-center shrink-0 mt-0.5">
-                      <i data-lucide="clock" class="w-4 h-4"></i>
-                    </div>
-                    <div>
-                      <strong class="text-forest-950 block">Data & Horário</strong>
-                      <span class="text-forest-800 font-mono font-bold text-sm">${destaque.horario}</span>
-                      <span class="text-[11px] text-gray-500 block">${destaque.data} • ${destaque.diaSemana}</span>
-                    </div>
-                  </div>
+                <!-- Botões para Ampliar as Imagens Oficiais (Capa e Cartaz) -->
+                <div class="pt-2 flex flex-col sm:flex-row gap-2.5">
+                  <button onclick="abrirLightbox('${destaque.thumbnail}', 'Palestra: ${destaque.titulo} - ${destaque.palestrante}')" class="flex-1 inline-flex items-center justify-center gap-2 px-4 py-2.5 text-xs font-bold uppercase tracking-wider text-forest-950 bg-sand-100 hover:bg-sand-200 border border-sand-300 rounded-xl transition">
+                    <i data-lucide="image" class="w-3.5 h-3.5 text-forest-700"></i>
+                    <span>Ver Capa Oficial</span>
+                  </button>
 
-                  <div class="p-3.5 rounded-xl bg-forest-50/70 border border-forest-100/80 flex items-start gap-3">
-                    <div class="w-8 h-8 rounded-lg bg-forest-900 text-gold-400 flex items-center justify-center shrink-0 mt-0.5">
-                      <i data-lucide="users" class="w-4 h-4"></i>
-                    </div>
-                    <div>
-                      <strong class="text-forest-950 block">Público-Alvo</strong>
-                      <span class="text-gray-700 text-xs">${destaque.publico}</span>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="pt-2 flex flex-col sm:flex-row items-center gap-3">
-                  <a href="#localizacao" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3 text-xs font-bold uppercase tracking-wider text-white bg-forest-900 hover:bg-forest-800 rounded-xl shadow-md transition-all">
-                    <i data-lucide="map-pin" class="w-4 h-4 text-gold-400"></i>
-                    <span>Tv. Castelo Branco, 870 • Ver Mapa</span>
-                  </a>
-                  <button onclick="abrirLightbox('${destaque.cartaz}', '${destaque.titulo}')" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3 text-xs font-bold uppercase tracking-wider text-forest-950 bg-sand-100 hover:bg-sand-200 border border-sand-300 rounded-xl transition">
-                    <i data-lucide="maximize-2" class="w-4 h-4 text-forest-700"></i>
-                    <span>Ampliar Cartaz Oficial</span>
+                  <button onclick="abrirLightbox('${destaque.cartaz}', 'Cartaz: ${destaque.categoria}')" class="flex-1 inline-flex items-center justify-center gap-2 px-4 py-2.5 text-xs font-bold uppercase tracking-wider text-forest-950 bg-sand-100 hover:bg-sand-200 border border-sand-300 rounded-xl transition">
+                    <i data-lucide="maximize-2" class="w-3.5 h-3.5 text-forest-700"></i>
+                    <span>Ver Cartaz</span>
                   </button>
                 </div>
 
-                <p class="text-[11px] text-gray-500">
-                  Realização: <strong>${destaque.realizacao}</strong> • Entrada franca.
-                </p>
+                <div class="pt-1 border-t border-sand-200 flex items-center justify-between text-[11px] text-gray-500">
+                  <span>${destaque.realizacao}</span>
+                  <a href="#localizacao" class="text-forest-700 hover:text-forest-900 font-semibold">Sede CEYC • São Brás</a>
+                </div>
+
               </div>
 
-              <div class="lg:col-span-5 flex justify-center">
-                <div onclick="abrirLightbox('${destaque.cartaz}', '${destaque.titulo}')" class="relative w-full max-w-sm rounded-2xl overflow-hidden shadow-2xl border-4 border-white bg-sand-50 cursor-pointer group">
-                  <img src="${destaque.cartaz}" alt="${destaque.titulo}" class="w-full h-auto object-cover transition-transform duration-300 group-hover:scale-105">
-                  <div class="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-white text-xs font-bold uppercase tracking-wider gap-2">
-                    <i data-lucide="zoom-in" class="w-5 h-5"></i>
-                    <span>Clique para Ampliar</span>
-                  </div>
-                </div>
-              </div>
             </div>
+
           </div>
         `;
       }
 
-      // Se houver mais palestras no array, renderiza no grid
+      // Renderiza as outras palestras no grid
       if (outros.length > 0 && gridProximos) {
-        gridProximos.classList.remove("hidden");
         gridProximos.innerHTML = outros.map(p => `
           <div class="bg-white rounded-2xl p-5 shadow-sm border border-sand-200 flex flex-col justify-between hover:shadow-md transition">
             <div>
-              <div class="rounded-xl overflow-hidden mb-4 aspect-[4/5] bg-sand-100 cursor-pointer" onclick="abrirLightbox('${p.cartaz}', '${p.titulo}')">
-                <img src="${p.cartaz}" alt="${p.titulo}" class="w-full h-full object-cover">
+              <div class="rounded-xl overflow-hidden mb-4 aspect-[16/10] bg-sand-100 cursor-pointer relative group" onclick="abrirLightbox('${p.thumbnail}', '${p.titulo}')">
+                <img src="${p.thumbnail}" alt="${p.titulo}" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105">
+                <div class="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-white text-xs font-bold uppercase tracking-wider gap-1.5">
+                  <i data-lucide="zoom-in" class="w-4 h-4"></i>
+                  <span>Ampliar</span>
+                </div>
               </div>
-              <span class="text-[11px] font-bold uppercase tracking-wider text-forest-700 bg-forest-50 px-2.5 py-1 rounded-full">${p.categoria}</span>
-              <h4 class="font-serif font-bold text-lg text-forest-950 mt-2 mb-1">${p.titulo}</h4>
-              <p class="text-xs text-gray-600 font-mono font-bold">${p.data} (${p.diaSemana}) às ${p.horario}</p>
+              <span class="text-[10px] font-bold uppercase tracking-wider text-forest-700 bg-forest-50 px-2.5 py-1 rounded-full border border-forest-100">${p.categoria}</span>
+              <h4 class="font-serif font-bold text-base text-forest-950 mt-2 mb-1 leading-snug">${p.titulo}</h4>
+              <p class="text-xs text-gray-600 font-medium">${p.palestrante}</p>
             </div>
             <div class="mt-4 pt-3 border-t border-sand-100 flex items-center justify-between text-xs">
-              <span class="text-gray-500">${p.badge}</span>
-              <button onclick="abrirLightbox('${p.cartaz}', '${p.titulo}')" class="text-forest-800 hover:text-forest-950 font-bold">Ver Cartaz ↗</button>
+              <span class="text-gray-500 font-mono font-bold text-[11px]">${p.badge}</span>
+              <button onclick="abrirLightbox('${p.cartaz}', '${p.titulo}')" class="text-forest-800 hover:text-forest-950 font-bold flex items-center gap-1">
+                <span>Ver Imagem</span>
+                <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
+              </button>
             </div>
           </div>
         `).join("");
