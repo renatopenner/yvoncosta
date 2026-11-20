@@ -110,6 +110,176 @@
     "size_kb": 154
   },
   {
+    "id": 1001,
+    "slug": "nosso-lar",
+    "title": "Nosso Lar",
+    "author": "André Luiz (Chico Xavier)",
+    "category": "Coleção André Luiz",
+    "epub": "assets/ebooks/nosso-lar.epub",
+    "cover": "assets/img/livros/nosso-lar.jpg",
+    "size_kb": 215
+  },
+  {
+    "id": 1002,
+    "slug": "os-mensageiros",
+    "title": "Os Mensageiros",
+    "author": "André Luiz (Chico Xavier)",
+    "category": "Coleção André Luiz",
+    "epub": "assets/ebooks/os-mensageiros.epub",
+    "cover": "assets/img/livros/os-mensageiros.jpg",
+    "size_kb": 275
+  },
+  {
+    "id": 1003,
+    "slug": "missionarios-da-luz",
+    "title": "Missionários da Luz",
+    "author": "André Luiz (Chico Xavier)",
+    "category": "Coleção André Luiz",
+    "epub": "assets/ebooks/missionarios-da-luz.epub",
+    "cover": "assets/img/livros/missionarios-da-luz.jpg",
+    "size_kb": 307
+  },
+  {
+    "id": 1004,
+    "slug": "obreiros-da-vida-eterna",
+    "title": "Obreiros da Vida Eterna",
+    "author": "André Luiz (Chico Xavier)",
+    "category": "Coleção André Luiz",
+    "epub": "assets/ebooks/obreiros-da-vida-eterna.epub",
+    "cover": "assets/img/livros/obreiros-da-vida-eterna.jpg",
+    "size_kb": 271
+  },
+  {
+    "id": 1005,
+    "slug": "no-mundo-maior",
+    "title": "No Mundo Maior",
+    "author": "André Luiz (Chico Xavier)",
+    "category": "Coleção André Luiz",
+    "epub": "assets/ebooks/no-mundo-maior.epub",
+    "cover": "assets/img/livros/no-mundo-maior.jpg",
+    "size_kb": 227
+  },
+  {
+    "id": 1006,
+    "slug": "agenda-crista",
+    "title": "Agenda Cristã",
+    "author": "André Luiz (Chico Xavier)",
+    "category": "Coleção André Luiz",
+    "epub": "assets/ebooks/agenda-crista.epub",
+    "cover": "assets/img/livros/agenda-crista.jpg",
+    "size_kb": 43
+  },
+  {
+    "id": 1007,
+    "slug": "libertacao",
+    "title": "Libertação",
+    "author": "André Luiz (Chico Xavier)",
+    "category": "Coleção André Luiz",
+    "epub": "assets/ebooks/libertacao.epub",
+    "cover": "assets/img/livros/libertacao.jpg",
+    "size_kb": 225
+  },
+  {
+    "id": 1008,
+    "slug": "entre-a-terra-e-o-ceu",
+    "title": "Entre a Terra e o Céu",
+    "author": "André Luiz (Chico Xavier)",
+    "category": "Coleção André Luiz",
+    "epub": "assets/ebooks/entre-a-terra-e-o-ceu.epub",
+    "cover": "assets/img/livros/entre-a-terra-e-o-ceu.jpg",
+    "size_kb": 231
+  },
+  {
+    "id": 1009,
+    "slug": "nos-dominios-da-mediunidade",
+    "title": "Nos Domínios da Mediunidade",
+    "author": "André Luiz (Chico Xavier)",
+    "category": "Coleção André Luiz",
+    "epub": "assets/ebooks/nos-dominios-da-mediunidade.epub",
+    "cover": "assets/img/livros/nos-dominios-da-mediunidade.jpg",
+    "size_kb": 221
+  },
+  {
+    "id": 1010,
+    "slug": "acao-e-reacao",
+    "title": "Ação e Reação",
+    "author": "André Luiz (Chico Xavier)",
+    "category": "Coleção André Luiz",
+    "epub": "assets/ebooks/acao-e-reacao.epub",
+    "cover": "assets/img/livros/acao-e-reacao.jpg",
+    "size_kb": 227
+  },
+  {
+    "id": 1011,
+    "slug": "evolucao-em-dois-mundos",
+    "title": "Evolução em Dois Mundos",
+    "author": "André Luiz (Chico Xavier & Waldo Vieira)",
+    "category": "Coleção André Luiz",
+    "epub": "assets/ebooks/evolucao-em-dois-mundos.epub",
+    "cover": "assets/img/livros/evolucao-em-dois-mundos.jpg",
+    "size_kb": 189
+  },
+  {
+    "id": 1012,
+    "slug": "mecanismos-da-mediunidade",
+    "title": "Mecanismos da Mediunidade",
+    "author": "André Luiz (Chico Xavier & Waldo Vieira)",
+    "category": "Coleção André Luiz",
+    "epub": "assets/ebooks/mecanismos-da-mediunidade.epub",
+    "cover": "assets/img/livros/mecanismos-da-mediunidade.jpg",
+    "size_kb": 145
+  },
+  {
+    "id": 1013,
+    "slug": "conduta-espirita",
+    "title": "Conduta Espírita",
+    "author": "André Luiz (Waldo Vieira)",
+    "category": "Coleção André Luiz",
+    "epub": "assets/ebooks/conduta-espirita.epub",
+    "cover": "assets/img/livros/conduta-espirita.jpg",
+    "size_kb": 64
+  },
+  {
+    "id": 1014,
+    "slug": "sexo-e-destino",
+    "title": "Sexo e Destino",
+    "author": "André Luiz (Chico Xavier & Waldo Vieira)",
+    "category": "Coleção André Luiz",
+    "epub": "assets/ebooks/sexo-e-destino.epub",
+    "cover": "assets/img/livros/sexo-e-destino.jpg",
+    "size_kb": 305
+  },
+  {
+    "id": 1015,
+    "slug": "desobsessao",
+    "title": "Desobsessão",
+    "author": "André Luiz (Chico Xavier & Waldo Vieira)",
+    "category": "Coleção André Luiz",
+    "epub": "assets/ebooks/desobsessao.epub",
+    "cover": "assets/img/livros/desobsessao.jpg",
+    "size_kb": 97
+  },
+  {
+    "id": 1016,
+    "slug": "e-a-vida-continua",
+    "title": "E a Vida Continua...",
+    "author": "André Luiz (Chico Xavier)",
+    "category": "Coleção André Luiz",
+    "epub": "assets/ebooks/e-a-vida-continua.epub",
+    "cover": "assets/img/livros/e-a-vida-continua.jpg",
+    "size_kb": 200
+  },
+  {
+    "id": 1017,
+    "slug": "sinal-verde",
+    "title": "Sinal Verde",
+    "author": "André Luiz (Chico Xavier)",
+    "category": "Coleção André Luiz",
+    "epub": "assets/ebooks/sinal-verde.epub",
+    "cover": "assets/img/livros/sinal-verde.jpg",
+    "size_kb": 62
+  },
+  {
     "id": 72,
     "slug": "revista-espirita-colecao-1858",
     "title": "REVISTA ESPÍRITA - Coleção 1858",
