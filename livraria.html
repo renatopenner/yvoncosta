@@ -324,7 +324,7 @@
 
     async function carregarLivraria() {
       try {
-        const resp = await fetch('assets/data/livraria.json');
+        const resp = await fetch('assets/data/livraria.json?v=50', { cache: 'no-store' });
         livros = await resp.json();
         renderizar();
       } catch (e) {

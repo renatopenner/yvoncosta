@@ -297,7 +297,7 @@
 
     async function carregarBiblioteca() {
       try {
-        const resp = await fetch('assets/data/biblioteca.json');
+        const resp = await fetch('assets/data/biblioteca.json?v=117', { cache: 'no-store' });
         acervo = await resp.json();
         renderizar();
       } catch (e) {
