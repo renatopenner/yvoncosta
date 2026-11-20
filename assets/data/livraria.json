@@ -1,0 +1,452 @@
+[
+  {
+    "id": 1,
+    "slug": "o-livro-dos-espiritos",
+    "title": "O Livro dos Espíritos",
+    "author": "Allan Kardec",
+    "category": "Obras Básicas",
+    "synopsis": "Obra inaugural da Codificação Espírita (1857), estruturada em 1.019 perguntas sobre Deus, a imortalidade da alma, a natureza dos Espíritos e as leis morais.",
+    "cover": "assets/img/livraria/o-livro-dos-espiritos.jpg"
+  },
+  {
+    "id": 2,
+    "slug": "o-livro-dos-mediuns",
+    "title": "O Livro dos Médiuns",
+    "author": "Allan Kardec",
+    "category": "Obras Básicas",
+    "synopsis": "Guia completo para o estudo teórico e prático da mediunidade, explicando os fenômenos mediúnicos e a disciplina necessária aos médiuns.",
+    "cover": "assets/img/livraria/o-livro-dos-mediuns.jpg"
+  },
+  {
+    "id": 3,
+    "slug": "o-evangelho-segundo-o-espiritismo",
+    "title": "O Evangelho Segundo o Espiritismo",
+    "author": "Allan Kardec",
+    "category": "Obras Básicas",
+    "synopsis": "Explicação das máximas morais do Cristo em concordância com o Espiritismo e suas aplicações às diversas circunstâncias da vida.",
+    "cover": "assets/img/livraria/o-evangelho-segundo-o-espiritismo.jpg"
+  },
+  {
+    "id": 4,
+    "slug": "o-ceu-e-o-inferno",
+    "title": "O Céu e o Inferno",
+    "author": "Allan Kardec",
+    "category": "Obras Básicas",
+    "synopsis": "Exame comparado das doutrinas sobre a passagem da vida corporal à espiritual, com exemplos reais de Espíritos felizes, sofredores e em expiação.",
+    "cover": "assets/img/livraria/o-ceu-e-o-inferno.jpg"
+  },
+  {
+    "id": 5,
+    "slug": "a-genese",
+    "title": "A Gênese",
+    "author": "Allan Kardec",
+    "category": "Obras Básicas",
+    "synopsis": "Os milagres e as predições segundo o Espiritismo: análise científica e filosófica da criação, da formação dos mundos e dos fenômenos evangélicos.",
+    "cover": "assets/img/livraria/a-genese.jpg"
+  },
+  {
+    "id": 6,
+    "slug": "o-que-e-o-espiritismo",
+    "title": "O Que é o Espiritismo?",
+    "author": "Allan Kardec",
+    "category": "Obras Básicas",
+    "synopsis": "Introdução clara e acessível aos princípios fundamentais da Doutrina Espírita em forma de diálogos com um crítico, um cético e um padre.",
+    "cover": "assets/img/livraria/o-que-e-o-espiritismo.jpg"
+  },
+  {
+    "id": 7,
+    "slug": "obras-postumas",
+    "title": "Obras Póstumas",
+    "author": "Allan Kardec",
+    "category": "Obras Básicas",
+    "synopsis": "Coletânea de estudos, biografia e comunicações mediúnicas deixadas por Allan Kardec e publicadas após seu falecimento.",
+    "cover": "assets/img/livraria/obras-postumas.jpg"
+  },
+  {
+    "id": 8,
+    "slug": "nosso-lar",
+    "title": "Nosso Lar",
+    "author": "André Luiz (Chico Xavier)",
+    "category": "Coleção André Luiz",
+    "synopsis": "1º volume da série 'A Vida no Mundo Espiritual'. Relata o despertar do médico André Luiz na colônia espiritual Nosso Lar e seu aprendizado sobre serviço e renovação.",
+    "cover": "assets/img/livraria/nosso-lar.jpg"
+  },
+  {
+    "id": 9,
+    "slug": "os-mensageiros",
+    "title": "Os Mensageiros",
+    "author": "André Luiz (Chico Xavier)",
+    "category": "Coleção André Luiz",
+    "synopsis": "2º volume da série. Acompanha o trabalho de mensageiros espirituais em auxílio aos encarnados e o preparo para a reencarnação.",
+    "cover": "assets/img/livraria/os-mensageiros.jpg"
+  },
+  {
+    "id": 10,
+    "slug": "missionarios-da-luz",
+    "title": "Missionários da Luz",
+    "author": "André Luiz (Chico Xavier)",
+    "category": "Coleção André Luiz",
+    "synopsis": "3º volume da série. Detalha o mecanismo da mediunidade, passes, materialização, reencarnação e o trabalho de orientadores espirituais.",
+    "cover": "assets/img/livraria/missionarios-da-luz.jpg"
+  },
+  {
+    "id": 11,
+    "slug": "obreiros-da-vida-eterna",
+    "title": "Obreiros da Vida Eterna",
+    "author": "André Luiz (Chico Xavier)",
+    "category": "Coleção André Luiz",
+    "synopsis": "4º volume da série. Mostra o amparo espiritual nos momentos de desencarnação e a atuação fraterna em zonas de sofrimento.",
+    "cover": "assets/img/livraria/obreiros-da-vida-eterna.jpg"
+  },
+  {
+    "id": 12,
+    "slug": "no-mundo-maior",
+    "title": "No Mundo Maior",
+    "author": "André Luiz (Chico Xavier)",
+    "category": "Coleção André Luiz",
+    "synopsis": "5º volume da série. Estudo profundo sobre a mente humana, processos obsessivos, alienação mental e terapias espirituais.",
+    "cover": "assets/img/livraria/no-mundo-maior.jpg"
+  },
+  {
+    "id": 13,
+    "slug": "agenda-crista",
+    "title": "Agenda Cristã",
+    "author": "André Luiz (Chico Xavier)",
+    "category": "Coleção André Luiz",
+    "synopsis": "6º volume da série. Lições breves e práticas para a conduta diária do cristão e a vigilância dos pensamentos e atitudes.",
+    "cover": "assets/img/livraria/agenda-crista.jpg"
+  },
+  {
+    "id": 14,
+    "slug": "libertacao",
+    "title": "Libertação",
+    "author": "André Luiz (Chico Xavier)",
+    "category": "Coleção André Luiz",
+    "synopsis": "7º volume da série. Narra o resgate espiritual de almas ligadas por processos obsessivos complexos e o poder transformador do perdão.",
+    "cover": "assets/img/livraria/libertacao.jpg"
+  },
+  {
+    "id": 15,
+    "slug": "entre-a-terra-e-o-ceu",
+    "title": "Entre a Terra e o Céu",
+    "author": "André Luiz (Chico Xavier)",
+    "category": "Coleção André Luiz",
+    "synopsis": "8º volume da série. Aborda os laços afetivos que atravessam a morte física, o suicídio inconsciente e a assistência espiritual às famílias.",
+    "cover": "assets/img/livraria/entre-a-terra-e-o-ceu.jpg"
+  },
+  {
+    "id": 16,
+    "slug": "nos-dominios-da-mediunidade",
+    "title": "Nos Domínios da Mediunidade",
+    "author": "André Luiz (Chico Xavier)",
+    "category": "Coleção André Luiz",
+    "synopsis": "9º volume da série. Estudo técnico e prático sobre psicofonia, psicografia, clarividência, desdobramento e reuniões mediúnicas.",
+    "cover": "assets/img/livraria/nos-dominios-da-mediunidade.jpg"
+  },
+  {
+    "id": 17,
+    "slug": "acao-e-reacao",
+    "title": "Ação e Reação",
+    "author": "André Luiz (Chico Xavier)",
+    "category": "Coleção André Luiz",
+    "synopsis": "10º volume da série. Esclarece a lei de causa e efeito por meio de casos reais acompanhados na região espiritual da Mansão Paz.",
+    "cover": "assets/img/livraria/acao-e-reacao.jpg"
+  },
+  {
+    "id": 18,
+    "slug": "evolucao-em-dois-mundos",
+    "title": "Evolução em Dois Mundos",
+    "author": "André Luiz (Chico Xavier & Waldo Vieira)",
+    "category": "Coleção André Luiz",
+    "synopsis": "11º volume da série. Obra de alto rigor sobre corpo espiritual (perispírito), fluido cósmico, hereditariedade e evolução anímica.",
+    "cover": "assets/img/livraria/evolucao-em-dois-mundos.jpg"
+  },
+  {
+    "id": 19,
+    "slug": "mecanismos-da-mediunidade",
+    "title": "Mecanismos da Mediunidade",
+    "author": "André Luiz (Chico Xavier & Waldo Vieira)",
+    "category": "Coleção André Luiz",
+    "synopsis": "12º volume da série. Analisa as bases eletromagnéticas do pensamento, ondas mentais, sintonia e circuitos mediúnicos.",
+    "cover": "assets/img/livraria/mecanismos-da-mediunidade.jpg"
+  },
+  {
+    "id": 20,
+    "slug": "sexo-e-destino",
+    "title": "Sexo e Destino",
+    "author": "André Luiz (Chico Xavier & Waldo Vieira)",
+    "category": "Coleção André Luiz",
+    "synopsis": "13º volume da série. Reflexões sobre afetividade, família, responsabilidade sexual e equilíbrio espiritual à luz da reencarnação.",
+    "cover": "assets/img/livraria/sexo-e-destino.jpg"
+  },
+  {
+    "id": 21,
+    "slug": "e-a-vida-continua",
+    "title": "E a Vida Continua...",
+    "author": "André Luiz (Chico Xavier)",
+    "category": "Coleção André Luiz",
+    "synopsis": "14º volume da série. Romance espiritual que acompanha personagens após a desencarnação, revelando a continuidade dos afetos e da consciência.",
+    "cover": "assets/img/livraria/e-a-vida-continua.jpg"
+  },
+  {
+    "id": 22,
+    "slug": "paulo-e-estevao",
+    "title": "Paulo e Estêvão",
+    "author": "Emmanuel (Chico Xavier)",
+    "category": "Emmanuel & Chico Xavier",
+    "synopsis": "Um dos maiores clássicos da literatura espírita: narra a conversão de Saulo de Tarso e o testemunho luminoso de Estêvão no Cristianismo nascente.",
+    "cover": "assets/img/livraria/paulo-e-estevao.jpg"
+  },
+  {
+    "id": 23,
+    "slug": "ha-dois-mil-anos",
+    "title": "Há Dois Mil Anos",
+    "author": "Emmanuel (Chico Xavier)",
+    "category": "Emmanuel & Chico Xavier",
+    "synopsis": "Romance histórico ambientado no Império Romano nos dias de Jesus, revelando as provas do senador Públio Lêntulo.",
+    "cover": "assets/img/livraria/ha-dois-mil-anos.jpg"
+  },
+  {
+    "id": 24,
+    "slug": "cinquenta-anos-depois",
+    "title": "Cinquenta Anos Depois",
+    "author": "Emmanuel (Chico Xavier)",
+    "category": "Emmanuel & Chico Xavier",
+    "synopsis": "Continuação de 'Há Dois Mil Anos', acompanhando novas provas e reencontros reencarnatórios no século II.",
+    "cover": "assets/img/livraria/cinquenta-anos-depois.jpg"
+  },
+  {
+    "id": 25,
+    "slug": "renuncia",
+    "title": "Renúncia",
+    "author": "Emmanuel (Chico Xavier)",
+    "category": "Emmanuel & Chico Xavier",
+    "synopsis": "Comovente história de abnegação e amor cristão vivida por Alcíone entre a Europa do século XVII e o Brasil.",
+    "cover": "assets/img/livraria/renuncia.jpg"
+  },
+  {
+    "id": 26,
+    "slug": "ave-cristo",
+    "title": "Ave, Cristo!",
+    "author": "Emmanuel (Chico Xavier)",
+    "category": "Emmanuel & Chico Xavier",
+    "synopsis": "Relata a fidelidade dos primeiros cristãos no século III diante das perseguições e do testemunho de fé.",
+    "cover": "assets/img/livraria/ave-cristo.jpg"
+  },
+  {
+    "id": 27,
+    "slug": "a-caminho-da-luz",
+    "title": "A Caminho da Luz",
+    "author": "Emmanuel (Chico Xavier)",
+    "category": "Emmanuel & Chico Xavier",
+    "synopsis": "História da civilização humana interpretada sob a ótica espiritual, da formação planetária ao Consolador Prometido.",
+    "cover": "assets/img/livraria/a-caminho-da-luz.jpg"
+  },
+  {
+    "id": 28,
+    "slug": "o-consolador",
+    "title": "O Consolador",
+    "author": "Emmanuel (Chico Xavier)",
+    "category": "Emmanuel & Chico Xavier",
+    "synopsis": "415 perguntas e respostas sobre Ciência, Filosofia e Religião à luz da Doutrina Espírita.",
+    "cover": "assets/img/livraria/o-consolador.jpg"
+  },
+  {
+    "id": 29,
+    "slug": "caminho-verdade-e-vida",
+    "title": "Caminho, Verdade e Vida",
+    "author": "Emmanuel (Chico Xavier)",
+    "category": "Emmanuel & Chico Xavier",
+    "synopsis": "180 comentários evangélicos para o estudo diário e aplicação dos ensinos de Jesus na vida cotidiana.",
+    "cover": "assets/img/livraria/caminho-verdade-e-vida.jpg"
+  },
+  {
+    "id": 30,
+    "slug": "pao-nosso",
+    "title": "Pão Nosso",
+    "author": "Emmanuel (Chico Xavier)",
+    "category": "Emmanuel & Chico Xavier",
+    "synopsis": "180 lições de esperança, trabalho e renovação interior baseadas em versículos do Novo Testamento.",
+    "cover": "assets/img/livraria/pao-nosso.jpg"
+  },
+  {
+    "id": 31,
+    "slug": "vinha-de-luz",
+    "title": "Vinha de Luz",
+    "author": "Emmanuel (Chico Xavier)",
+    "category": "Emmanuel & Chico Xavier",
+    "synopsis": "180 estudos evangélicos voltados para o esclarecimento espiritual e o fortalecimento da fé raciocinada.",
+    "cover": "assets/img/livraria/vinha-de-luz.jpg"
+  },
+  {
+    "id": 32,
+    "slug": "fonte-viva",
+    "title": "Fonte Viva",
+    "author": "Emmanuel (Chico Xavier)",
+    "category": "Emmanuel & Chico Xavier",
+    "synopsis": "180 páginas de meditação cristã e conforto espiritual para o cultivo da caridade e da paz interior.",
+    "cover": "assets/img/livraria/fonte-viva.jpg"
+  },
+  {
+    "id": 33,
+    "slug": "boa-nova",
+    "title": "Boa Nova",
+    "author": "Humberto de Campos (Chico Xavier)",
+    "category": "Emmanuel & Chico Xavier",
+    "synopsis": "Narrativas poéticas e emocionantes sobre a vida pública de Jesus, os apóstolos e o Evangelho no lar.",
+    "cover": "assets/img/livraria/boa-nova.jpg"
+  },
+  {
+    "id": 34,
+    "slug": "brasil-coracao-do-mundo-patria-do-evangelho",
+    "title": "Brasil, Coração do Mundo, Pátria do Evangelho",
+    "author": "Humberto de Campos (Chico Xavier)",
+    "category": "Romances & História Espírita",
+    "synopsis": "Visão espiritual da formação histórica do Brasil e de sua missão fraterna diante das nações.",
+    "cover": "assets/img/livraria/brasil-coracao-do-mundo-patria-do-evangelho.jpg"
+  },
+  {
+    "id": 35,
+    "slug": "violetas-na-janela",
+    "title": "Violetas na Janela",
+    "author": "Patrícia (Vera Lúcia Marinzeck)",
+    "category": "Romances & História Espírita",
+    "synopsis": "Relato leve e esclarecedor da jovem Patrícia após sua desencarnação, respondendo dúvidas comuns sobre a vida espiritual.",
+    "cover": "assets/img/livraria/violetas-na-janela.jpg"
+  },
+  {
+    "id": 36,
+    "slug": "memorias-de-um-suicida",
+    "title": "Memórias de um Suicida",
+    "author": "Camilo Cândido Botelho (Yvonne A. Pereira)",
+    "category": "Romances & História Espírita",
+    "synopsis": "Obra comovente sobre a realidade espiritual após o suicídio, a misericórdia divina e os caminhos de reabilitação.",
+    "cover": "assets/img/livraria/memorias-de-um-suicida.jpg"
+  },
+  {
+    "id": 37,
+    "slug": "recordacoes-da-mediunidade",
+    "title": "Recordações da Mediunidade",
+    "author": "Yvonne A. Pereira",
+    "category": "Estudo & Mediunidade",
+    "synopsis": "Relatos biográficos e ensinamentos práticos de uma das mais respeitadas médiuns do Espiritismo brasileiro.",
+    "cover": "assets/img/livraria/recordacoes-da-mediunidade.jpg"
+  },
+  {
+    "id": 38,
+    "slug": "depois-da-morte",
+    "title": "Depois da Morte",
+    "author": "Léon Denis",
+    "category": "Filosofia & Ciência Espírita",
+    "synopsis": "Síntese magistral da filosofia espírita sobre a sobrevivência da alma, as provas experimentais e a lei da evolução.",
+    "cover": "assets/img/livraria/depois-da-morte.jpg"
+  },
+  {
+    "id": 39,
+    "slug": "o-problema-do-ser-do-destino-e-da-dor",
+    "title": "O Problema do Ser, do Destino e da Dor",
+    "author": "Léon Denis",
+    "category": "Filosofia & Ciência Espírita",
+    "synopsis": "Profunda reflexão filosófica sobre o sentido da existência, o livre-arbítrio, a dor e o progresso espiritual.",
+    "cover": "assets/img/livraria/o-problema-do-ser-do-destino-e-da-dor.jpg"
+  },
+  {
+    "id": 40,
+    "slug": "no-invisivel",
+    "title": "No Invisível",
+    "author": "Léon Denis",
+    "category": "Filosofia & Ciência Espírita",
+    "synopsis": "Estudo documentado sobre as manifestações mediúnicas, a fotografia transcendental e as leis do mundo espiritual.",
+    "cover": "assets/img/livraria/no-invisivel.jpg"
+  },
+  {
+    "id": 41,
+    "slug": "o-fenomeno-espirita",
+    "title": "O Fenômeno Espírita",
+    "author": "Gabriel Delanne",
+    "category": "Filosofia & Ciência Espírita",
+    "synopsis": "Análise científica rigorosa dos fenômenos psíquicos e mediúnicos comprovando a existência e a ação do Espírito.",
+    "cover": "assets/img/livraria/o-fenomeno-espirita.jpg"
+  },
+  {
+    "id": 42,
+    "slug": "a-loucura-sob-novo-prisma",
+    "title": "A Loucura Sob Novo Prisma",
+    "author": "Bezerra de Menezes",
+    "category": "Estudo & Mediunidade",
+    "synopsis": "Obra pioneira do 'Médico dos Pobres' relacionando desequilíbrios mentais à ação espiritual e à obsessão.",
+    "cover": "assets/img/livraria/a-loucura-sob-novo-prisma.jpg"
+  },
+  {
+    "id": 43,
+    "slug": "nos-bastidores-da-obsessao",
+    "title": "Nos Bastidores da Obsessão",
+    "author": "Manoel Philomeno de Miranda (Divaldo Franco)",
+    "category": "Estudo & Mediunidade",
+    "synopsis": "Estudo detalhado sobre processos obsessivos e o trabalho das equipes espirituais no atendimento fraterno.",
+    "cover": "assets/img/livraria/nos-bastidores-da-obsessao.jpg"
+  },
+  {
+    "id": 44,
+    "slug": "loucura-e-obsessao",
+    "title": "Loucura e Obsessão",
+    "author": "Manoel Philomeno de Miranda (Divaldo Franco)",
+    "category": "Estudo & Mediunidade",
+    "synopsis": "Análise de casos reais de obsessão espiritual e a importância da reforma íntima e da desobsessão.",
+    "cover": "assets/img/livraria/loucura-e-obsessao.jpg"
+  },
+  {
+    "id": 45,
+    "slug": "trilhas-da-libertacao",
+    "title": "Trilhas da Libertação",
+    "author": "Manoel Philomeno de Miranda (Divaldo Franco)",
+    "category": "Estudo & Mediunidade",
+    "synopsis": "Relatos sobre o atendimento espiritual em reuniões mediúnicas e a superação de conflitos anímicos.",
+    "cover": "assets/img/livraria/trilhas-da-libertacao.jpg"
+  },
+  {
+    "id": 46,
+    "slug": "autodescobrimento-uma-busca-interior",
+    "title": "Autodescobrimento: Uma Busca Interior",
+    "author": "Joanna de Ângelis (Divaldo Franco)",
+    "category": "Estudo & Mediunidade",
+    "synopsis": "Ponte entre a psicologia transpessoal e o Espiritismo para o autoconhecimento e a maturidade emocional.",
+    "cover": "assets/img/livraria/autodescobrimento-uma-busca-interior.jpg"
+  },
+  {
+    "id": 47,
+    "slug": "jesus-e-atualidade",
+    "title": "Jesus e Atualidade",
+    "author": "Joanna de Ângelis (Divaldo Franco)",
+    "category": "Estudo & Mediunidade",
+    "synopsis": "Reflexões sobre a atualidade psicológica, ética e espiritual dos ensinamentos do Cristo.",
+    "cover": "assets/img/livraria/jesus-e-atualidade.jpg"
+  },
+  {
+    "id": 48,
+    "slug": "momentos-de-ouro",
+    "title": "Momentos de Ouro",
+    "author": "Joanna de Ângelis (Divaldo Franco)",
+    "category": "Estudo & Mediunidade",
+    "synopsis": "Mensagens curtas de consolo, estímulo e equilíbrio para os desafios cotidianos.",
+    "cover": "assets/img/livraria/momentos-de-ouro.jpg"
+  },
+  {
+    "id": 49,
+    "slug": "parabolas-e-ensinos-de-jesus",
+    "title": "Parábolas e Ensinos de Jesus",
+    "author": "Cairbar Schutel",
+    "category": "Estudo & Mediunidade",
+    "synopsis": "Interpretação clara e luminosa das parábolas evangélicas à luz da razão e da Doutrina Espírita.",
+    "cover": "assets/img/livraria/parabolas-e-ensinos-de-jesus.jpg"
+  },
+  {
+    "id": 50,
+    "slug": "pinga-fogo-com-chico-xavier",
+    "title": "Pinga-Fogo com Chico Xavier",
+    "author": "Chico Xavier (Entrevista histórica)",
+    "category": "Romances & História Espírita",
+    "synopsis": "Transcrição das célebres entrevistas de Chico Xavier na TV Tupi em 1971, marco da divulgação espírita no Brasil.",
+    "cover": "assets/img/livraria/pinga-fogo-com-chico-xavier.jpg"
+  }
+]

@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Livraria Física • Centro Espírita Yvon Costa</title>
+  <meta name="description" content="Conheça as 50 obras espíritas mais lidas disponíveis presencialmente na Livraria do Centro Espírita Yvon Costa em Belém - PA. Obras Básicas de Allan Kardec, Coleção André Luiz e clássicos.">
+
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            forest: {
+              50: '#f2f8f5',
+              100: '#e1efe8',
+              200: '#c5e0d4',
+              300: '#9bc8b7',
+              400: '#6ba993',
+              500: '#488c75',
+              600: '#35715e',
+              700: '#2c5b4d',
+              800: '#254a3f',
+              900: '#1e3d34',
+              950: '#0e241e'
+            },
+            sand: {
+              50: '#faf8f5',
+              100: '#f4f0e9',
+              200: '#e8dfd2',
+              300: '#d7c7b2',
+              400: '#c2ab90',
+              500: '#b19374'
+            },
+            gold: {
+              400: '#e5c07b',
+              500: '#d4af37',
+              600: '#b89628'
+            }
+          },
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            serif: ['"Cinzel"', 'serif'],
+          }
+        }
+      }
+    }
+  </script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <style>
+    .glass-header {
+      background: rgba(250, 248, 245, 0.9);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+    }
+  </style>
+</head>
+
+<body class="bg-sand-50 text-gray-800 font-sans antialiased selection:bg-forest-100 selection:text-forest-900">
+
+  <!-- Barra de Topo -->
+  <div class="bg-forest-950 text-forest-200 text-xs py-2 px-4 border-b border-forest-900/60">
+    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2 text-center sm:text-left">
+      <div class="flex items-center gap-2">
+        <span class="w-1.5 h-1.5 rounded-full bg-gold-400 animate-ping"></span>
+        <span class="tracking-wide">Centro Espírita Yvon Costa • Fundado em 11 de Fevereiro de 1926 • Belém/PA</span>
+      </div>
+      <div class="flex items-center gap-4 text-[11px] text-forest-300">
+        <span class="flex items-center gap-1"><i data-lucide="map-pin" class="w-3 h-3 text-gold-400"></i> Tv. Castelo Branco, 870</span>
+        <span class="hidden md:inline">•</span>
+        <span class="hidden md:inline">Livraria Física & Biblioteca Virtual Gratuita</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header / Navbar -->
+  <header class="sticky top-0 z-50 glass-header border-b border-sand-200/80 transition-all duration-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+
+        <a href="index.html" class="flex items-center gap-3 shrink-0 group">
+          <div class="w-11 h-11 rounded-full bg-white p-1 border border-forest-600/20 shadow-sm flex items-center justify-center transition-transform group-hover:scale-105">
+            <img src="assets/img/logo.jpg" alt="Logo Centro Espírita Yvon Costa" class="w-full h-full object-contain rounded-full">
+          </div>
+          <div>
+            <span class="block font-serif font-bold text-base sm:text-lg text-forest-950 tracking-wider uppercase leading-none">Yvon Costa</span>
+            <span class="block text-[11px] text-forest-700 tracking-widest uppercase font-semibold mt-1">Centro Espírita • Fundado em 1926</span>
+          </div>
+        </a>
+
+        <nav class="hidden lg:flex items-center gap-5 xl:gap-6 text-xs font-semibold uppercase tracking-wider text-gray-600">
+          <a href="index.html#inicio" class="whitespace-nowrap hover:text-forest-800 transition py-1 border-b-2 border-transparent hover:border-forest-700">Início</a>
+          <a href="palestras.html" class="whitespace-nowrap hover:text-forest-800 transition py-1 border-b-2 border-transparent hover:border-forest-700">Palestras</a>
+          <a href="livraria.html" class="whitespace-nowrap text-white font-bold bg-forest-900 px-3.5 py-1.5 rounded-full shadow-sm inline-flex items-center gap-1.5">
+            <i data-lucide="book-marked" class="w-3.5 h-3.5 text-gold-400"></i> Livraria
+          </a>
+          <a href="biblioteca.html" class="whitespace-nowrap text-forest-900 font-bold bg-emerald-50 px-3.5 py-1.5 rounded-full border border-emerald-200 hover:bg-emerald-100 transition inline-flex items-center gap-1.5">
+            <i data-lucide="book-open" class="w-3.5 h-3.5 text-forest-700"></i> Biblioteca Virtual
+          </a>
+          <a href="index.html#programacao" class="whitespace-nowrap hover:text-forest-800 transition py-1 border-b-2 border-transparent hover:border-forest-700">Horários</a>
+          <a href="index.html#projetos" class="whitespace-nowrap hover:text-forest-800 transition py-1 border-b-2 border-transparent hover:border-forest-700 inline-flex items-center gap-1 text-forest-900 font-bold">
+            <span>Doe PIX</span>
+            <i data-lucide="heart" class="w-3.5 h-3.5 text-forest-700 fill-forest-700/20"></i>
+          </a>
+        </nav>
+
+        <button id="mobile-menu-btn" class="lg:hidden p-2 text-forest-950 focus:outline-none" aria-label="Menu de navegação">
+          <i data-lucide="menu" id="menu-icon-open" class="w-6 h-6"></i>
+          <i data-lucide="x" id="menu-icon-close" class="w-6 h-6 hidden"></i>
+        </button>
+      </div>
+    </div>
+
+    <div id="mobile-menu" class="hidden lg:hidden bg-sand-50/95 backdrop-blur-xl border-b border-sand-200 px-6 py-6 shadow-2xl space-y-3">
+      <a href="index.html#inicio" class="mobile-link block text-sm font-semibold uppercase tracking-wider text-forest-950">Início</a>
+      <a href="palestras.html" class="mobile-link block text-sm font-semibold uppercase tracking-wider text-forest-950">Palestras & Vídeos</a>
+      <a href="livraria.html" class="mobile-link block text-sm font-bold uppercase tracking-wider text-white bg-forest-900 p-2.5 rounded-xl flex items-center justify-between">
+        <span>📚 Livraria Física (50 Obras)</span>
+        <span class="text-[10px] bg-gold-400 text-forest-950 px-2 py-0.5 rounded-full font-bold">Presencial</span>
+      </a>
+      <a href="biblioteca.html" class="mobile-link block text-sm font-bold uppercase tracking-wider text-forest-950 bg-emerald-50 p-2.5 rounded-xl border border-emerald-200 flex items-center justify-between">
+        <span>📖 Biblioteca Virtual (100 EPUBs)</span>
+        <span class="text-[10px] bg-forest-800 text-white px-2 py-0.5 rounded-full font-bold">Grátis</span>
+      </a>
+      <a href="index.html#programacao" class="mobile-link block text-sm font-semibold uppercase tracking-wider text-forest-950">Horários</a>
+      <a href="index.html#projetos" class="mobile-link block text-sm font-semibold uppercase tracking-wider text-forest-950">Ações Sociais & PIX</a>
+    </div>
+  </header>
+
+  <main class="py-10 lg:py-14">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+      <!-- Cabeçalho -->
+      <div class="text-center max-w-3xl mx-auto mb-10">
+        <div class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-forest-700 mb-2">
+          <span class="w-6 h-px bg-forest-600"></span>
+          <span>Livraria Física • Aquisição Presencial</span>
+          <span class="w-6 h-px bg-forest-600"></span>
+        </div>
+        <h1 class="font-serif text-3xl sm:text-5xl text-forest-950 font-bold tracking-tight">
+          Livraria do Yvon Costa
+        </h1>
+        <p class="text-sm sm:text-base text-gray-600 mt-3 font-light leading-relaxed">
+          Conheça as <strong class="font-semibold text-forest-900">50 obras espíritas mais lidas</strong> — com destaque para a Codificação de Allan Kardec e a Coleção André Luiz — disponíveis para compra presencial em nossa sede em Belém do Pará.
+        </p>
+      </div>
+
+      <!-- Aviso de Compra Presencial -->
+      <div class="bg-gradient-to-r from-forest-950 via-forest-900 to-forest-950 text-white rounded-3xl p-6 sm:p-8 mb-10 shadow-xl border border-forest-800 flex flex-col lg:flex-row items-center justify-between gap-6">
+        <div class="flex items-start gap-4">
+          <div class="w-12 h-12 rounded-2xl bg-gold-400/15 border border-gold-400/30 flex items-center justify-center shrink-0">
+            <i data-lucide="store" class="w-6 h-6 text-gold-400"></i>
+          </div>
+          <div>
+            <span class="text-[11px] font-bold uppercase tracking-widest text-gold-400 block mb-1">Atendimento Presencial na Sede</span>
+            <h2 class="font-serif text-xl sm:text-2xl font-bold text-white">Adquira seus livros diretamente no Centro Espírita Yvon Costa</h2>
+            <p class="text-xs sm:text-sm text-forest-200 mt-1.5 font-light max-w-2xl">
+              Não realizamos vendas online nem entregas. Todo o valor arrecadado na livraria física ajuda a manter as atividades gratuitas e as obras assistenciais da nossa Casa.
+            </p>
+            <div class="flex flex-wrap items-center gap-4 mt-3 text-xs text-forest-100">
+              <span class="inline-flex items-center gap-1.5"><i data-lucide="map-pin" class="w-3.5 h-3.5 text-gold-400"></i> Tv. Francisco Caldeira Castelo Branco, 870 — São Brás, Belém/PA</span>
+              <span class="inline-flex items-center gap-1.5"><i data-lucide="clock" class="w-3.5 h-3.5 text-gold-400"></i> Domingos (09h–11h) • Ter/Qua/Qui/Sáb nos horários de estudo</span>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col sm:flex-row gap-3 shrink-0 w-full lg:w-auto">
+          <a href="index.html#localizacao" class="px-5 py-3 bg-gold-400 hover:bg-gold-500 text-forest-950 font-bold text-xs uppercase tracking-wider rounded-xl text-center transition shadow-md inline-flex items-center justify-center gap-2">
+            <i data-lucide="navigation" class="w-4 h-4"></i> Como Chegar
+          </a>
+          <a href="biblioteca.html" class="px-5 py-3 bg-white/10 hover:bg-white/20 text-white font-bold text-xs uppercase tracking-wider rounded-xl text-center transition border border-white/20 inline-flex items-center justify-center gap-2">
+            <i data-lucide="download" class="w-4 h-4"></i> Ver E-books Grátis
+          </a>
+        </div>
+      </div>
+
+      <!-- Busca e Filtros -->
+      <div class="bg-white rounded-2xl p-5 sm:p-6 border border-sand-200 shadow-sm mb-8 space-y-4">
+        <div class="flex flex-col md:flex-row items-stretch md:items-center justify-between gap-4">
+          <div class="relative flex-1">
+            <i data-lucide="search" class="w-4 h-4 text-gray-400 absolute left-4 top-1/2 -translate-y-1/2"></i>
+            <input id="busca-livraria" type="text" placeholder="Buscar por título, autor ou tema (ex: Nosso Lar, Kardec, André Luiz)..."
+              class="w-full pl-11 pr-4 py-3 rounded-xl border border-sand-300 bg-sand-50/50 text-sm focus:outline-none focus:ring-2 focus:ring-forest-600 focus:bg-white transition">
+          </div>
+          <div class="flex items-center justify-between md:justify-end gap-3">
+            <span id="contador-livraria" class="text-xs font-mono font-bold text-forest-800 bg-forest-50 px-3.5 py-2 rounded-xl border border-forest-200">
+              50 Obras
+            </span>
+          </div>
+        </div>
+
+        <div id="filtros-livraria" class="flex flex-wrap items-center gap-2 pt-1">
+          <button data-cat="todas" class="cat-btn px-3.5 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider bg-forest-900 text-white transition">Todas (50)</button>
+          <button data-cat="Obras Básicas" class="cat-btn px-3.5 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider bg-sand-100 text-forest-900 hover:bg-sand-200 border border-sand-300 transition">Obras Básicas (Kardec)</button>
+          <button data-cat="Coleção André Luiz" class="cat-btn px-3.5 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider bg-sand-100 text-forest-900 hover:bg-sand-200 border border-sand-300 transition">Coleção André Luiz</button>
+          <button data-cat="Emmanuel & Chico Xavier" class="cat-btn px-3.5 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider bg-sand-100 text-forest-900 hover:bg-sand-200 border border-sand-300 transition">Emmanuel & Chico Xavier</button>
+          <button data-cat="Estudo & Mediunidade" class="cat-btn px-3.5 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider bg-sand-100 text-forest-900 hover:bg-sand-200 border border-sand-300 transition">Estudo & Mediunidade</button>
+          <button data-cat="Filosofia & Ciência Espírita" class="cat-btn px-3.5 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider bg-sand-100 text-forest-900 hover:bg-sand-200 border border-sand-300 transition">Filosofia & Ciência</button>
+          <button data-cat="Romances & História Espírita" class="cat-btn px-3.5 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider bg-sand-100 text-forest-900 hover:bg-sand-200 border border-sand-300 transition">Romances & História</button>
+        </div>
+      </div>
+
+      <!-- Grid de Livros -->
+      <div id="grid-livraria" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-6">
+        <div class="col-span-full text-center py-16 text-gray-500 text-sm">Carregando acervo da livraria...</div>
+      </div>
+
+      <!-- Banner Biblioteca Virtual + PIX -->
+      <div class="mt-16 grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <div class="bg-white rounded-3xl p-7 border border-sand-200 shadow-sm flex flex-col justify-between gap-5">
+          <div>
+            <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-50 text-emerald-800 text-xs font-bold uppercase tracking-wider border border-emerald-200 mb-3">
+              <i data-lucide="book-open" class="w-3.5 h-3.5"></i> 100% Gratuito
+            </span>
+            <h3 class="font-serif text-2xl text-forest-950 font-bold">Biblioteca Virtual em EPUB</h3>
+            <p class="text-sm text-gray-600 mt-2 font-light leading-relaxed">
+              Prefere ler no celular, tablet ou Kindle? Disponibilizamos gratuitamente os 100 principais livros espíritas kardecistas em formato EPUB leve para download imediato.
+            </p>
+          </div>
+          <a href="biblioteca.html" class="inline-flex items-center justify-center gap-2 px-6 py-3 bg-forest-900 hover:bg-forest-800 text-white font-bold text-xs uppercase tracking-wider rounded-xl transition">
+            <i data-lucide="arrow-right" class="w-4 h-4"></i> Acessar Biblioteca Virtual
+          </a>
+        </div>
+
+        <div class="bg-forest-950 text-white rounded-3xl p-7 border border-forest-800 shadow-sm flex flex-col justify-between gap-5">
+          <div>
+            <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-gold-400/20 text-gold-400 text-xs font-bold uppercase tracking-wider border border-gold-400/30 mb-3">
+              <i data-lucide="heart" class="w-3.5 h-3.5"></i> Apoio Fraterno
+            </span>
+            <h3 class="font-serif text-2xl text-white font-bold">Colabore com Nossas Obras de Caridade</h3>
+            <p class="text-sm text-forest-200 mt-2 font-light leading-relaxed">
+              Sua contribuição via PIX (CNPJ: <strong class="text-gold-400 font-mono">05.090.857/0001-63</strong>) mantém o atendimento fraterno, a assistência social e a divulgação doutrinária.
+            </p>
+          </div>
+          <button onclick="copiarPix(this)" class="inline-flex items-center justify-center gap-2 px-6 py-3 bg-gold-400 hover:bg-gold-500 text-forest-950 font-bold text-xs uppercase tracking-wider rounded-xl transition">
+            <i data-lucide="copy" class="w-4 h-4"></i> <span>Copiar Chave PIX (CNPJ)</span>
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Modal Detalhes da Obra -->
+  <div id="modal-livro" class="fixed inset-0 z-50 bg-black/70 backdrop-blur-sm hidden items-center justify-center p-4" onclick="fecharModal(event)">
+    <div class="bg-white rounded-3xl max-w-xl w-full p-6 sm:p-8 shadow-2xl border border-sand-200 relative" onclick="event.stopPropagation()">
+      <button onclick="fecharModal()" class="absolute top-4 right-4 p-2 rounded-full bg-sand-100 hover:bg-sand-200 text-gray-600" aria-label="Fechar">
+        <i data-lucide="x" class="w-5 h-5"></i>
+      </button>
+      <div class="flex flex-col sm:flex-row gap-6">
+        <img id="m-capa" src="" alt="" class="w-36 h-52 object-cover rounded-xl shadow-md border border-sand-200 mx-auto sm:mx-0 shrink-0">
+        <div class="flex-1">
+          <span id="m-cat" class="inline-block text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-full bg-forest-50 text-forest-800 border border-forest-200 mb-2"></span>
+          <h3 id="m-titulo" class="font-serif text-xl font-bold text-forest-950 leading-snug"></h3>
+          <p id="m-autor" class="text-xs font-semibold text-forest-700 mt-1"></p>
+          <p id="m-sinopse" class="text-sm text-gray-600 mt-3 leading-relaxed font-light"></p>
+        </div>
+      </div>
+      <div class="mt-6 pt-5 border-t border-sand-200 bg-sand-50 -mx-6 -mb-6 sm:-mx-8 sm:-mb-8 px-6 py-5 sm:px-8 rounded-b-3xl">
+        <p class="text-xs font-bold text-forest-950 uppercase tracking-wider flex items-center gap-1.5">
+          <i data-lucide="map-pin" class="w-4 h-4 text-gold-600"></i> Como Adquirir Presencialmente
+        </p>
+        <p class="text-xs text-gray-600 mt-1">
+          Procure a Livraria do <strong>Centro Espírita Yvon Costa</strong> na <strong>Tv. Francisco Caldeira Castelo Branco, 870 — São Brás, Belém/PA</strong> durante os horários de palestras e estudos.
+        </p>
+        <div class="mt-4 flex flex-wrap gap-2.5">
+          <a href="index.html#localizacao" class="px-4 py-2 bg-forest-900 hover:bg-forest-800 text-white text-xs font-bold uppercase tracking-wider rounded-lg transition">Ver Mapa & Endereço</a>
+          <a href="index.html#programacao" class="px-4 py-2 bg-white hover:bg-sand-100 text-forest-900 border border-sand-300 text-xs font-bold uppercase tracking-wider rounded-lg transition">Ver Horários da Casa</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Rodapé -->
+  <footer class="bg-forest-950 text-forest-300 text-xs py-12 border-t border-forest-900 mt-12">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row items-center justify-between gap-6 pb-8 border-b border-forest-900/80 text-center md:text-left">
+        <div class="flex items-center gap-3">
+          <div class="w-9 h-9 rounded-full bg-white p-0.5">
+            <img src="assets/img/logo.jpg" alt="Logo" class="w-full h-full object-contain rounded-full">
+          </div>
+          <div>
+            <span class="font-serif font-bold text-sm text-sand-50 uppercase tracking-wider block">Centro Espírita Yvon Costa</span>
+            <span class="text-[11px] text-forest-400">Fundado em 11/02/1926 • Belém/PA • CNPJ: 05.090.857/0001-63</span>
+          </div>
+        </div>
+        <div class="flex flex-wrap items-center justify-center gap-5 uppercase tracking-wider text-[11px] font-semibold text-forest-400">
+          <a href="index.html#inicio" class="hover:text-sand-100 transition">Início</a>
+          <a href="palestras.html" class="hover:text-sand-100 transition">Palestras</a>
+          <a href="livraria.html" class="hover:text-sand-100 transition text-gold-400">Livraria</a>
+          <a href="biblioteca.html" class="hover:text-sand-100 transition">Biblioteca Virtual</a>
+          <a href="index.html#doacoes" class="hover:text-sand-100 transition">Doe PIX</a>
+        </div>
+      </div>
+      <div class="pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-forest-500 text-center sm:text-left">
+        <p>© 2026 Centro Espírita Yvon Costa. Atividades doutrinárias 100% gratuitas.</p>
+        <p>Desenvolvido com carinho e fraternidade.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    lucide.createIcons();
+
+    const mobileBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const iconOpen = document.getElementById('menu-icon-open');
+    const iconClose = document.getElementById('menu-icon-close');
+    mobileBtn.addEventListener('click', () => {
+      const isClosed = mobileMenu.classList.contains('hidden');
+      mobileMenu.classList.toggle('hidden', !isClosed);
+      iconOpen.classList.toggle('hidden', isClosed);
+      iconClose.classList.toggle('hidden', !isClosed);
+    });
+
+    let livros = [];
+    let catAtual = 'todas';
+    let buscaAtual = '';
+
+    async function carregarLivraria() {
+      try {
+        const resp = await fetch('assets/data/livraria.json');
+        livros = await resp.json();
+        renderizar();
+      } catch (e) {
+        document.getElementById('grid-livraria').innerHTML = '<div class="col-span-full text-center py-12 text-red-600">Erro ao carregar o catálogo da livraria.</div>';
+      }
+    }
+
+    function renderizar() {
+      const q = buscaAtual.trim().toLowerCase();
+      const filtrados = livros.filter(b => {
+        const matchCat = catAtual === 'todas' || b.category === catAtual;
+        const matchQ = !q || b.title.toLowerCase().includes(q) || b.author.toLowerCase().includes(q) || b.synopsis.toLowerCase().includes(q);
+        return matchCat && matchQ;
+      });
+
+      document.getElementById('contador-livraria').textContent = `${filtrados.length} ${filtrados.length === 1 ? 'Obra' : 'Obras'}`;
+      const grid = document.getElementById('grid-livraria');
+
+      if (!filtrados.length) {
+        grid.innerHTML = '<div class="col-span-full text-center py-14 text-gray-500 text-sm">Nenhuma obra encontrada para este filtro.</div>';
+        return;
+      }
+
+      grid.innerHTML = filtrados.map((b, idx) => `
+        <article class="bg-white rounded-2xl border border-sand-200/90 shadow-sm hover:shadow-lg transition-all duration-200 flex flex-col overflow-hidden group">
+          <div class="relative aspect-[2/3] bg-sand-100 overflow-hidden cursor-pointer" onclick="abrirModal('${b.slug}')">
+            <img src="${b.cover}" alt="Capa de ${b.title}" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+          </div>
+          <div class="p-4 flex-1 flex flex-col justify-between">
+            <div>
+              <span class="text-[10px] font-bold uppercase tracking-wider text-forest-700 block mb-1">${b.category}</span>
+              <h3 class="font-serif font-bold text-sm text-forest-950 leading-snug line-clamp-2 group-hover:text-forest-700 transition cursor-pointer" onclick="abrirModal('${b.slug}')">${b.title}</h3>
+              <p class="text-[11px] font-semibold text-forest-700 mt-1 line-clamp-1">${b.author}</p>
+              <p class="text-xs text-gray-500 mt-2 line-clamp-3 font-light leading-relaxed">${b.synopsis}</p>
+            </div>
+            <div class="mt-4 pt-3 border-t border-sand-100 flex items-center justify-between gap-2">
+              <span class="text-[10px] font-bold text-emerald-800 bg-emerald-50 px-2 py-1 rounded-md border border-emerald-200 inline-flex items-center gap-1">
+                <i data-lucide="store" class="w-3 h-3"></i> Na Casa
+              </span>
+              <button onclick="abrirModal('${b.slug}')" class="text-[11px] font-bold text-forest-900 hover:text-gold-600 uppercase tracking-wider inline-flex items-center gap-1">
+                Detalhes <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+              </button>
+            </div>
+          </div>
+        </article>
+      `).join('');
+      lucide.createIcons();
+    }
+
+    function abrirModal(slug) {
+      const b = livros.find(x => x.slug === slug);
+      if (!b) return;
+      document.getElementById('m-capa').src = b.cover;
+      document.getElementById('m-capa').alt = b.title;
+      document.getElementById('m-cat').textContent = b.category;
+      document.getElementById('m-titulo').textContent = b.title;
+      document.getElementById('m-autor').textContent = b.author;
+      document.getElementById('m-sinopse').textContent = b.synopsis;
+      const m = document.getElementById('modal-livro');
+      m.classList.remove('hidden');
+      m.classList.add('flex');
+    }
+
+    function fecharModal() {
+      const m = document.getElementById('modal-livro');
+      m.classList.add('hidden');
+      m.classList.remove('flex');
+    }
+
+    document.getElementById('busca-livraria').addEventListener('input', e => {
+      buscaAtual = e.target.value;
+      renderizar();
+    });
+
+    document.querySelectorAll('.cat-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        catAtual = btn.dataset.cat;
+        document.querySelectorAll('.cat-btn').forEach(b => {
+          b.className = 'cat-btn px-3.5 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider bg-sand-100 text-forest-900 hover:bg-sand-200 border border-sand-300 transition';
+        });
+        btn.className = 'cat-btn px-3.5 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider bg-forest-900 text-white transition';
+        renderizar();
+      });
+    });
+
+    function copiarPix(btn) {
+      const span = btn.querySelector('span');
+      navigator.clipboard.writeText('05.090.857/0001-63').then(() => {
+        span.textContent = '✓ Chave PIX Copiada!';
+        setTimeout(() => span.textContent = 'Copiar Chave PIX (CNPJ)', 2500);
+      });
+    }
+
+    carregarLivraria();
+  </script>
+</body>
+</html>

@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 1,
+    "slug": "o-livro-dos-espiritos",
+    "title": "O Livro dos Espíritos",
+    "author": "Allan Kardec",
+    "category": "Codificação (Allan Kardec)",
+    "epub": "assets/ebooks/o-livro-dos-espiritos.epub",
+    "cover": "assets/img/livros/o-livro-dos-espiritos.jpg",
+    "size_kb": 398
+  },
+  {
+    "id": 2,
+    "slug": "o-livro-dos-mediuns",
+    "title": "O Livro dos Médiuns",
+    "author": "Allan Kardec",
+    "category": "Codificação (Allan Kardec)",
+    "epub": "assets/ebooks/o-livro-dos-mediuns.epub",
+    "cover": "assets/img/livros/o-livro-dos-mediuns.jpg",
+    "size_kb": 407
+  },
+  {
+    "id": 3,
+    "slug": "o-evangelho-segundo-o-espiritismo",
+    "title": "O Evangelho Segundo o Espiritismo",
+    "author": "Allan Kardec",
+    "category": "Codificação (Allan Kardec)",
+    "epub": "assets/ebooks/o-evangelho-segundo-o-espiritismo.epub",
+    "cover": "assets/img/livros/o-evangelho-segundo-o-espiritismo.jpg",
+    "size_kb": 379
+  },
+  {
+    "id": 4,
+    "slug": "o-ceu-e-o-inferno",
+    "title": "O Céu e o Inferno",
+    "author": "Allan Kardec",
+    "category": "Codificação (Allan Kardec)",
+    "epub": "assets/ebooks/o-ceu-e-o-inferno.epub",
+    "cover": "assets/img/livros/o-ceu-e-o-inferno.jpg",
+    "size_kb": 389
+  },
+  {
+    "id": 5,
+    "slug": "a-genese-os-milagres-e-as-predicoes-segundo-o-espiritismo",
+    "title": "A Gênese, os Milagres e as Predições Segundo o Espiritismo",
+    "author": "Allan Kardec",
+    "category": "Codificação (Allan Kardec)",
+    "epub": "assets/ebooks/a-genese-os-milagres-e-as-predicoes-segundo-o-espiritismo.epub",
+    "cover": "assets/img/livros/a-genese-os-milagres-e-as-predicoes-segundo-o-espiritismo.jpg",
+    "size_kb": 370
+  },
+  {
+    "id": 6,
+    "slug": "o-que-e-o-espiritismo",
+    "title": "O Que É o Espiritismo?",
+    "author": "Allan Kardec",
+    "category": "Codificação (Allan Kardec)",
+    "epub": "assets/ebooks/o-que-e-o-espiritismo.epub",
+    "cover": "assets/img/livros/o-que-e-o-espiritismo.jpg",
+    "size_kb": 172
+  },
+  {
+    "id": 7,
+    "slug": "obras-postumas",
+    "title": "Obras Póstumas",
+    "author": "Allan Kardec",
+    "category": "Codificação (Allan Kardec)",
+    "epub": "assets/ebooks/obras-postumas.epub",
+    "cover": "assets/img/livros/obras-postumas.jpg",
+    "size_kb": 313
+  },
+  {
+    "id": 12,
+    "slug": "o-espiritismo-em-sua-expressao-mais-simples",
+    "title": "O Espiritismo em Sua Expressão Mais Simples",
+    "author": "Allan Kardec",
+    "category": "Codificação (Allan Kardec)",
+    "epub": "assets/ebooks/o-espiritismo-em-sua-expressao-mais-simples.epub",
+    "cover": "assets/img/livros/o-espiritismo-em-sua-expressao-mais-simples.jpg",
+    "size_kb": 46
+  },
+  {
+    "id": 146,
+    "slug": "viagens-espiritas-de-allan-kardec",
+    "title": "Viagens Espíritas de Allan Kardec",
+    "author": "Allan Kardec",
+    "category": "Codificação (Allan Kardec)",
+    "epub": "assets/ebooks/viagens-espiritas-de-allan-kardec.epub",
+    "cover": "assets/img/livros/viagens-espiritas-de-allan-kardec.jpg",
+    "size_kb": 148
+  },
+  {
+    "id": 196,
+    "slug": "catalogo-racional-das-obras-que-podem-servir-para-formar-uma-bib",
+    "title": "Catálogo Racional das Obras Que Podem Servir para Formar Uma Biblioteca Espírita",
+    "author": "Allan Kardec",
+    "category": "Codificação (Allan Kardec)",
+    "epub": "assets/ebooks/catalogo-racional-das-obras-que-podem-servir-para-formar-uma-bib.epub",
+    "cover": "assets/img/livros/catalogo-racional-das-obras-que-podem-servir-para-formar-uma-bib.jpg",
+    "size_kb": 119
+  },
+  {
+    "id": 203,
+    "slug": "instrucao-pratica-sobre-as-manifestacoes-espiritas",
+    "title": "Instrução Prática sobre as Manifestações Espíritas",
+    "author": "Allan Kardec",
+    "category": "Codificação (Allan Kardec)",
+    "epub": "assets/ebooks/instrucao-pratica-sobre-as-manifestacoes-espiritas.epub",
+    "cover": "assets/img/livros/instrucao-pratica-sobre-as-manifestacoes-espiritas.jpg",
+    "size_kb": 154
+  },
+  {
+    "id": 72,
+    "slug": "revista-espirita-colecao-1858",
+    "title": "REVISTA ESPÍRITA - Coleção 1858",
+    "author": "Allan Kardec",
+    "category": "Revista Espírita (1858–1869)",
+    "epub": "assets/ebooks/revista-espirita-colecao-1858.epub",
+    "cover": "assets/img/livros/revista-espirita-colecao-1858.jpg",
+    "size_kb": 456
+  },
+  {
+    "id": 75,
+    "slug": "revista-espirita-colecao-1859",
+    "title": "REVISTA ESPÍRITA - Coleção 1859",
+    "author": "Allan Kardec",
+    "category": "Revista Espírita (1858–1869)",
+    "epub": "assets/ebooks/revista-espirita-colecao-1859.epub",
+    "cover": "assets/img/livros/revista-espirita-colecao-1859.jpg",
+    "size_kb": 445
+  },
+  {
+    "id": 76,
+    "slug": "revista-espirita-colecao-1860",
+    "title": "REVISTA ESPÍRITA - Coleção 1860",
+    "author": "Allan Kardec",
+    "category": "Revista Espírita (1858–1869)",
+    "epub": "assets/ebooks/revista-espirita-colecao-1860.epub",
+    "cover": "assets/img/livros/revista-espirita-colecao-1860.jpg",
+    "size_kb": 481
+  },
+  {
+    "id": 82,
+    "slug": "revista-espirita-colecao-1861",
+    "title": "REVISTA ESPÍRITA - Coleção 1861",
+    "author": "Allan Kardec",
+    "category": "Revista Espírita (1858–1869)",
+    "epub": "assets/ebooks/revista-espirita-colecao-1861.epub",
+    "cover": "assets/img/livros/revista-espirita-colecao-1861.jpg",
+    "size_kb": 502
+  },
+  {
+    "id": 95,
+    "slug": "revista-espirita-colecao-1862",
+    "title": "REVISTA ESPÍRITA - Coleção 1862",
+    "author": "Allan Kardec",
+    "category": "Revista Espírita (1858–1869)",
+    "epub": "assets/ebooks/revista-espirita-colecao-1862.epub",
+    "cover": "assets/img/livros/revista-espirita-colecao-1862.jpg",
+    "size_kb": 479
+  },
+  {
+    "id": 98,
+    "slug": "revista-espirita-colecao-1863",
+    "title": "REVISTA ESPÍRITA - Coleção 1863",
+    "author": "Allan Kardec",
+    "category": "Revista Espírita (1858–1869)",
+    "epub": "assets/ebooks/revista-espirita-colecao-1863.epub",
+    "cover": "assets/img/livros/revista-espirita-colecao-1863.jpg",
+    "size_kb": 496
+  },
+  {
+    "id": 148,
+    "slug": "revista-espirita-colecao-1864",
+    "title": "REVISTA ESPÍRITA - Coleção 1864",
+    "author": "Allan Kardec",
+    "category": "Revista Espírita (1858–1869)",
+    "epub": "assets/ebooks/revista-espirita-colecao-1864.epub",
+    "cover": "assets/img/livros/revista-espirita-colecao-1864.jpg",
+    "size_kb": 485
+  },
+  {
+    "id": 150,
+    "slug": "revista-espirita-colecao-1865",
+    "title": "REVISTA ESPÍRITA - Coleção 1865",
+    "author": "Allan Kardec",
+    "category": "Revista Espírita (1858–1869)",
+    "epub": "assets/ebooks/revista-espirita-colecao-1865.epub",
+    "cover": "assets/img/livros/revista-espirita-colecao-1865.jpg",
+    "size_kb": 467
+  },
+  {
+    "id": 81,
+    "slug": "revista-espirita-colecao-1866",
+    "title": "REVISTA ESPÍRITA - Coleção 1866",
+    "author": "Allan Kardec",
+    "category": "Revista Espírita (1858–1869)",
+    "epub": "assets/ebooks/revista-espirita-colecao-1866.epub",
+    "cover": "assets/img/livros/revista-espirita-colecao-1866.jpg",
+    "size_kb": 465
+  },
+  {
+    "id": 20,
+    "slug": "revista-espirita-colecao-1867",
+    "title": "REVISTA ESPÍRITA - Coleção 1867",
+    "author": "Allan Kardec",
+    "category": "Revista Espírita (1858–1869)",
+    "epub": "assets/ebooks/revista-espirita-colecao-1867.epub",
+    "cover": "assets/img/livros/revista-espirita-colecao-1867.jpg",
+    "size_kb": 470
+  },
+  {
+    "id": 9,
+    "slug": "revista-espirita-colecao-1868",
+    "title": "REVISTA ESPÍRITA - Coleção 1868",
+    "author": "Allan Kardec",
+    "category": "Revista Espírita (1858–1869)",
+    "epub": "assets/ebooks/revista-espirita-colecao-1868.epub",
+    "cover": "assets/img/livros/revista-espirita-colecao-1868.jpg",
+    "size_kb": 447
+  },
+  {
+    "id": 172,
+    "slug": "revista-espirita-colecao-1869",
+    "title": "REVISTA ESPÍRITA - Coleção 1869",
+    "author": "Allan Kardec",
+    "category": "Revista Espírita (1858–1869)",
+    "epub": "assets/ebooks/revista-espirita-colecao-1869.epub",
+    "cover": "assets/img/livros/revista-espirita-colecao-1869.jpg",
+    "size_kb": 463
+  },
+  {
+    "id": 145,
+    "slug": "a-crise-da-morte",
+    "title": "A Crise da Morte",
+    "author": "Ernesto Bozzano",
+    "category": "Filosofia & Ciência Espírita",
+    "epub": "assets/ebooks/a-crise-da-morte.epub",
+    "cover": "assets/img/livros/a-crise-da-morte.jpg",
+    "size_kb": 135
+  },
+  {
+    "id": 10,
+    "slug": "a-historia-do-espiritualismo",
+    "title": "A História do Espiritualismo",
+    "author": "Arthur Conan Doyle",
+    "category": "Filosofia & Ciência Espírita",
+    "epub": "assets/ebooks/a-historia-do-espiritualismo.epub",
+    "cover": "assets/img/livros/a-historia-do-espiritualismo.jpg",
+    "size_kb": 487
+  },
+  {
+    "id": 188,
+    "slug": "a-reencarnacao-resposta-a-enquete-calderone",
+    "title": "A REENCARNAÇÃO - Resposta à Enquete Calderone",
+    "author": "Gustave Geley",
+    "category": "Filosofia & Ciência Espírita",
+    "epub": "assets/ebooks/a-reencarnacao-resposta-a-enquete-calderone.epub",
+    "cover": "assets/img/livros/a-reencarnacao-resposta-a-enquete-calderone.jpg",
+    "size_kb": 51
+  },
+  {
+    "id": 48,
+    "slug": "depois-da-morte",
+    "title": "Depois da Morte",
+    "author": "Léon Denis",
+    "category": "Filosofia & Ciência Espírita",
+    "epub": "assets/ebooks/depois-da-morte.epub",
+    "cover": "assets/img/livros/depois-da-morte.jpg",
+    "size_kb": 286
+  },
+  {
+    "id": 161,
+    "slug": "discursos-recentes-sobre-as-pesquisas-psiquicas",
+    "title": "Discursos Recentes sobre as Pesquisas Psíquicas",
+    "author": "William Crookes",
+    "category": "Filosofia & Ciência Espírita",
+    "epub": "assets/ebooks/discursos-recentes-sobre-as-pesquisas-psiquicas.epub",
+    "cover": "assets/img/livros/discursos-recentes-sobre-as-pesquisas-psiquicas.jpg",
+    "size_kb": 77
+  },
+  {
+    "id": 190,
+    "slug": "ectoplasmia-e-clarividencia",
+    "title": "Ectoplasmia e Clarividência",
+    "author": "Gustave Geley",
+    "category": "Filosofia & Ciência Espírita",
+    "epub": "assets/ebooks/ectoplasmia-e-clarividencia.epub",
+    "cover": "assets/img/livros/ectoplasmia-e-clarividencia.jpg",
+    "size_kb": 370
+  },
+  {
+    "id": 22,
+    "slug": "joana-d-arc-medium",
+    "title": "Joana D'Arc Médium",
+    "author": "Léon Denis",
+    "category": "Filosofia & Ciência Espírita",
+    "epub": "assets/ebooks/joana-d-arc-medium.epub",
+    "cover": "assets/img/livros/joana-d-arc-medium.jpg",
+    "size_kb": 258
+  },
+  {
+    "id": 56,
+    "slug": "no-invisivel",
+    "title": "No Invisível",
+    "author": "Léon Denis",
+    "category": "Filosofia & Ciência Espírita",
+    "epub": "assets/ebooks/no-invisivel.epub",
+    "cover": "assets/img/livros/no-invisivel.jpg",
+    "size_kb": 366
+  },
+  {
+    "id": 89,
+    "slug": "o-espiritismo-e-as-forcas-radiantes",
+    "title": "O Espiritismo e as Forças Radiantes",
+    "author": "Léon Denis",
+    "category": "Filosofia & Ciência Espírita",
+    "epub": "assets/ebooks/o-espiritismo-e-as-forcas-radiantes.epub",
+    "cover": "assets/img/livros/o-espiritismo-e-as-forcas-radiantes.jpg",
+    "size_kb": 64
+  },
+  {
+    "id": 52,
+    "slug": "o-espiritismo-e-o-clero-catolico",
+    "title": "O Espiritismo e o Clero Católico",
+    "author": "Léon Denis",
+    "category": "Filosofia & Ciência Espírita",
+    "epub": "assets/ebooks/o-espiritismo-e-o-clero-catolico.epub",
+    "cover": "assets/img/livros/o-espiritismo-e-o-clero-catolico.jpg",
+    "size_kb": 48
+  },
+  {
+    "id": 160,
+    "slug": "o-espiritismo-na-arte",
+    "title": "O Espiritismo na Arte",
+    "author": "Léon Denis",
+    "category": "Filosofia & Ciência Espírita",
+    "epub": "assets/ebooks/o-espiritismo-na-arte.epub",
+    "cover": "assets/img/livros/o-espiritismo-na-arte.jpg",
+    "size_kb": 126
+  },
+  {
+    "id": 28,
+    "slug": "o-fenomeno-espirita",
+    "title": "O Fenômeno Espírita",
+    "author": "Gabriel Delanne",
+    "category": "Filosofia & Ciência Espírita",
+    "epub": "assets/ebooks/o-fenomeno-espirita.epub",
+    "cover": "assets/img/livros/o-fenomeno-espirita.jpg",
+    "size_kb": 195
+  },
+  {
+    "id": 51,
+    "slug": "o-grande-enigma",
+    "title": "O Grande Enigma",
+    "author": "Léon Denis",
+    "category": "Filosofia & Ciência Espírita",
+    "epub": "assets/ebooks/o-grande-enigma.epub",
+    "cover": "assets/img/livros/o-grande-enigma.jpg",
+    "size_kb": 145
+  },
+  {
+    "id": 164,
+    "slug": "o-genio-celtico-e-o-mundo-invisivel",
+    "title": "O Gênio Céltico e o Mundo Invisível",
+    "author": "Léon Denis",
+    "category": "Filosofia & Ciência Espírita",
+    "epub": "assets/ebooks/o-genio-celtico-e-o-mundo-invisivel.epub",
+    "cover": "assets/img/livros/o-genio-celtico-e-o-mundo-invisivel.jpg",
+    "size_kb": 202
+  },
+  {
+    "id": 29,
+    "slug": "o-porque-da-vida",
+    "title": "O Porquê da Vida",
+    "author": "Léon Denis",
+    "category": "Filosofia & Ciência Espírita",
+    "epub": "assets/ebooks/o-porque-da-vida.epub",
+    "cover": "assets/img/livros/o-porque-da-vida.jpg",
+    "size_kb": 44
+  },
+  {
+    "id": 141,
+    "slug": "o-problema-do-ser-do-destino-e-da-dor",
+    "title": "O Problema do Ser, do Destino e da Dor",
+    "author": "Léon Denis",
+    "category": "Filosofia & Ciência Espírita",
+    "epub": "assets/ebooks/o-problema-do-ser-do-destino-e-da-dor.epub",
+    "cover": "assets/img/livros/o-problema-do-ser-do-destino-e-da-dor.jpg",
+    "size_kb": 347
+  },
+  {
+    "id": 176,
+    "slug": "os-enigmas-da-psicometria-e-dos-fenomenos-de-telestesia",
+    "title": "Os Enigmas da Psicometria e dos Fenômenos de Telestesia",
+    "author": "Ernesto Bozzano",
+    "category": "Filosofia & Ciência Espírita",
+    "epub": "assets/ebooks/os-enigmas-da-psicometria-e-dos-fenomenos-de-telestesia.epub",
+    "cover": "assets/img/livros/os-enigmas-da-psicometria-e-dos-fenomenos-de-telestesia.jpg",
+    "size_kb": 162
+  },
+  {
+    "id": 88,
+    "slug": "socialismo-e-espiritismo",
+    "title": "Socialismo e Espiritismo",
+    "author": "Léon Denis",
+    "category": "Filosofia & Ciência Espírita",
+    "epub": "assets/ebooks/socialismo-e-espiritismo.epub",
+    "cover": "assets/img/livros/socialismo-e-espiritismo.jpg",
+    "size_kb": 140
+  },
+  {
+    "id": 154,
+    "slug": "xenoglossia",
+    "title": "Xenoglossia",
+    "author": "Ernesto Bozzano",
+    "category": "Filosofia & Ciência Espírita",
+    "epub": "assets/ebooks/xenoglossia.epub",
+    "cover": "assets/img/livros/xenoglossia.jpg",
+    "size_kb": 177
+  },
+  {
+    "id": 170,
+    "slug": "arigo-vida-mediunidade-e-martirio",
+    "title": "Arigó - Vida, Mediunidade e Martírio",
+    "author": "José Herculano Pires",
+    "category": "Mediunidade & Estudo",
+    "epub": "assets/ebooks/arigo-vida-mediunidade-e-martirio.epub",
+    "cover": "assets/img/livros/arigo-vida-mediunidade-e-martirio.jpg",
+    "size_kb": 166
+  },
+  {
+    "id": 87,
+    "slug": "curso-basico-sobre-mediunidade",
+    "title": "Curso Básico sobre Mediunidade",
+    "author": "União Espírita Mineira",
+    "category": "Mediunidade & Estudo",
+    "epub": "assets/ebooks/curso-basico-sobre-mediunidade.epub",
+    "cover": "assets/img/livros/curso-basico-sobre-mediunidade.jpg",
+    "size_kb": 68
+  },
+  {
+    "id": 205,
+    "slug": "mediunidade",
+    "title": "Mediunidade",
+    "author": "J. Herculano Pires",
+    "category": "Mediunidade & Estudo",
+    "epub": "assets/ebooks/mediunidade.epub",
+    "cover": "assets/img/livros/mediunidade.jpg",
+    "size_kb": 135
+  },
+  {
+    "id": 999,
+    "slug": "mediunidade-e-apostolado",
+    "title": "Mediunidade e Apostolado",
+    "author": "Odilon Fernandes (Carlos A. Baccelli)",
+    "category": "Mediunidade & Estudo",
+    "epub": "assets/ebooks/mediunidade-e-apostolado.epub",
+    "cover": "assets/img/livros/mediunidade-e-apostolado.jpg",
+    "size_kb": 880
+  },
+  {
+    "id": 13,
+    "slug": "obsessao-o-passe-a-doutrinacao",
+    "title": "Obsessão, o Passe, a Doutrinação",
+    "author": "José Herculano Pires",
+    "category": "Mediunidade & Estudo",
+    "epub": "assets/ebooks/obsessao-o-passe-a-doutrinacao.epub",
+    "cover": "assets/img/livros/obsessao-o-passe-a-doutrinacao.jpg",
+    "size_kb": 65
+  },
+  {
+    "id": 38,
+    "slug": "telefone-para-o-alem",
+    "title": "Telefone para o Além",
+    "author": "Friedrich Jüergenson",
+    "category": "Mediunidade & Estudo",
+    "epub": "assets/ebooks/telefone-para-o-alem.epub",
+    "cover": "assets/img/livros/telefone-para-o-alem.jpg",
+    "size_kb": 223
+  },
+  {
+    "id": 105,
+    "slug": "tecnica-da-mediunidade",
+    "title": "Técnica da Mediunidade",
+    "author": "Carlos Torres Pastorino",
+    "category": "Mediunidade & Estudo",
+    "epub": "assets/ebooks/tecnica-da-mediunidade.epub",
+    "cover": "assets/img/livros/tecnica-da-mediunidade.jpg",
+    "size_kb": 161
+  },
+  {
+    "id": 42,
+    "slug": "vozes-do-alem-pelo-telefone",
+    "title": "Vozes do Além Pelo Telefone",
+    "author": "Oscar D'Argonnel",
+    "category": "Mediunidade & Estudo",
+    "epub": "assets/ebooks/vozes-do-alem-pelo-telefone.epub",
+    "cover": "assets/img/livros/vozes-do-alem-pelo-telefone.jpg",
+    "size_kb": 60
+  },
+  {
+    "id": 43,
+    "slug": "biografia-de-allan-kardec-43",
+    "title": "Biografia de Allan Kardec",
+    "author": "José Maria Fernández Colavida",
+    "category": "História & Biografias",
+    "epub": "assets/ebooks/biografia-de-allan-kardec-43.epub",
+    "cover": "assets/img/livros/biografia-de-allan-kardec-43.jpg",
+    "size_kb": 38
+  },
+  {
+    "id": 156,
+    "slug": "biografia-de-allan-kardec-156",
+    "title": "Biografia de Allan Kardec",
+    "author": "Anna Blackwell",
+    "category": "História & Biografias",
+    "epub": "assets/ebooks/biografia-de-allan-kardec-156.epub",
+    "cover": "assets/img/livros/biografia-de-allan-kardec-156.jpg",
+    "size_kb": 51
+  },
+  {
+    "id": 189,
+    "slug": "biografia-de-allan-kardec-189",
+    "title": "Biografia de Allan Kardec",
+    "author": "Henri Sausse",
+    "category": "História & Biografias",
+    "epub": "assets/ebooks/biografia-de-allan-kardec-189.epub",
+    "cover": "assets/img/livros/biografia-de-allan-kardec-189.jpg",
+    "size_kb": 163
+  },
+  {
+    "id": 180,
+    "slug": "de-rivail-a-kardec",
+    "title": "De Rivail a Kardec",
+    "author": "Carlos Seth Bastos",
+    "category": "História & Biografias",
+    "epub": "assets/ebooks/de-rivail-a-kardec.epub",
+    "cover": "assets/img/livros/de-rivail-a-kardec.jpg",
+    "size_kb": 111
+  },
+  {
+    "id": 197,
+    "slug": "j-herculano-pires-o-apostolo-de-kardec",
+    "title": "J. HERCULANO PIRES - o Apóstolo de Kardec",
+    "author": "Jorge Rizzini",
+    "category": "História & Biografias",
+    "epub": "assets/ebooks/j-herculano-pires-o-apostolo-de-kardec.epub",
+    "cover": "assets/img/livros/j-herculano-pires-o-apostolo-de-kardec.jpg",
+    "size_kb": 317
+  },
+  {
+    "id": 108,
+    "slug": "a-filosofia-penal-dos-espiritas-fernando-ortiz",
+    "title": "A FILOSOFIA PENAL DOS ESPÍRITAS Fernando Ortiz",
+    "author": "Acervo Espírita",
+    "category": "Obras Doutrinárias",
+    "epub": "assets/ebooks/a-filosofia-penal-dos-espiritas-fernando-ortiz.epub",
+    "cover": "assets/img/livros/a-filosofia-penal-dos-espiritas-fernando-ortiz.jpg",
+    "size_kb": 134
+  },
+  {
+    "id": 110,
+    "slug": "a-fe-na-casa-espirita",
+    "title": "A Fé na Casa Espírita",
+    "author": "Rodrigo Félix da Cruz",
+    "category": "Obras Doutrinárias",
+    "epub": "assets/ebooks/a-fe-na-casa-espirita.epub",
+    "cover": "assets/img/livros/a-fe-na-casa-espirita.jpg",
+    "size_kb": 40
+  },
+  {
+    "id": 125,
+    "slug": "a-loucura-sob-novo-prisma",
+    "title": "A Loucura sob Novo Prisma",
+    "author": "Bezerra de Menezes",
+    "category": "Obras Doutrinárias",
+    "epub": "assets/ebooks/a-loucura-sob-novo-prisma.epub",
+    "cover": "assets/img/livros/a-loucura-sob-novo-prisma.jpg",
+    "size_kb": 115
+  },
+  {
+    "id": 117,
+    "slug": "a-manutencao-da-casa-espirita",
+    "title": "A Manutenção da Casa Espírita",
+    "author": "Rodrigo Félix da Cruz",
+    "category": "Obras Doutrinárias",
+    "epub": "assets/ebooks/a-manutencao-da-casa-espirita.epub",
+    "cover": "assets/img/livros/a-manutencao-da-casa-espirita.jpg",
+    "size_kb": 45
+  },
+  {
+    "id": 114,
+    "slug": "a-musica-segundo-o-espiritismo",
+    "title": "A Música Segundo o Espiritismo",
+    "author": "Ery Lopes",
+    "category": "Obras Doutrinárias",
+    "epub": "assets/ebooks/a-musica-segundo-o-espiritismo.epub",
+    "cover": "assets/img/livros/a-musica-segundo-o-espiritismo.jpg",
+    "size_kb": 65
+  },
+  {
+    "id": 14,
+    "slug": "a-musica-na-casa-espirita",
+    "title": "A Música na Casa Espírita",
+    "author": "Rodrigo Felix da Cruz",
+    "category": "Obras Doutrinárias",
+    "epub": "assets/ebooks/a-musica-na-casa-espirita.epub",
+    "cover": "assets/img/livros/a-musica-na-casa-espirita.jpg",
+    "size_kb": 36
+  },
+  {
+    "id": 49,
+    "slug": "a-pedra-e-o-joio",
+    "title": "A Pedra e o Joio",
+    "author": "José Herculano Pires",
+    "category": "Obras Doutrinárias",
+    "epub": "assets/ebooks/a-pedra-e-o-joio.epub",
+    "cover": "assets/img/livros/a-pedra-e-o-joio.jpg",
+    "size_kb": 82
+  },
+  {
+    "id": 181,
+    "slug": "a-sociedade-de-paris",
+    "title": "A Sociedade de Paris",
+    "author": "Florentino Barrera",
+    "category": "Obras Doutrinárias",
+    "epub": "assets/ebooks/a-sociedade-de-paris.epub",
+    "cover": "assets/img/livros/a-sociedade-de-paris.jpg",
+    "size_kb": 128
+  },
+  {
+    "id": 122,
+    "slug": "a-tecnologia-da-informacao-no-espiritismo",
+    "title": "A Tecnologia da Informação no Espiritismo",
+    "author": "Rodrigo Félix da Cruz",
+    "category": "Obras Doutrinárias",
+    "epub": "assets/ebooks/a-tecnologia-da-informacao-no-espiritismo.epub",
+    "cover": "assets/img/livros/a-tecnologia-da-informacao-no-espiritismo.jpg",
+    "size_kb": 54
+  },
+  {
+    "id": 11,
+    "slug": "a-verdade-sobre-a-biblia",
+    "title": "A Verdade sobre a Bíblia...",
+    "author": "Louis Neilmoris",
+    "category": "Obras Doutrinárias",
+    "epub": "assets/ebooks/a-verdade-sobre-a-biblia.epub",
+    "cover": "assets/img/livros/a-verdade-sobre-a-biblia.jpg",
+    "size_kb": 61
+  },
+  {
+    "id": 77,
+    "slug": "a-vida-alem-do-veu",
+    "title": "A Vida Além do Véu",
+    "author": "George Vale Owen",
+    "category": "Obras Doutrinárias",
+    "epub": "assets/ebooks/a-vida-alem-do-veu.epub",
+    "cover": "assets/img/livros/a-vida-alem-do-veu.jpg",
+    "size_kb": 676
+  },
+  {
+    "id": 123,
+    "slug": "a-vida-no-outro-mundo",
+    "title": "A Vida no Outro Mundo",
+    "author": "Cairbar Schutel",
+    "category": "Obras Doutrinárias",
+    "epub": "assets/ebooks/a-vida-no-outro-mundo.epub",
+    "cover": "assets/img/livros/a-vida-no-outro-mundo.jpg",
+    "size_kb": 110
+  },
+  {
+    "id": 30,
+    "slug": "agonia-das-religioes",
+    "title": "Agonia das Religiões",
+    "author": "José Herculano Pires",
+    "category": "Obras Doutrinárias",
+    "epub": "assets/ebooks/agonia-das-religioes.epub",
+    "cover": "assets/img/livros/agonia-das-religioes.jpg",
+    "size_kb": 139
+  },
+  {
+    "id": 127,
+    "slug": "anuario-mediunico-ano-i-2011",
+    "title": "Anuário Medíunico - Ano I - 2011",
+    "author": "Equipe Luz Espírita",
+    "category": "Obras Doutrinárias",
+    "epub": "assets/ebooks/anuario-mediunico-ano-i-2011.epub",
+    "cover": "assets/img/livros/anuario-mediunico-ano-i-2011.jpg",
+    "size_kb": 112
+  },
+  {
+    "id": 157,
+    "slug": "bezerra-de-menezes",
+    "title": "Bezerra de Menezes",
+    "author": "Canuto Abreu",
+    "category": "Obras Doutrinárias",
+    "epub": "assets/ebooks/bezerra-de-menezes.epub",
+    "cover": "assets/img/livros/bezerra-de-menezes.jpg",
+    "size_kb": 104
+  },
+  {
+    "id": 178,
+    "slug": "coadjuvantes-da-codificacao-espirita",
+    "title": "Coadjuvantes da Codificação Espírita",
+    "author": "Carlos Seth Bastos",
+    "category": "Obras Doutrinárias",
+    "epub": "assets/ebooks/coadjuvantes-da-codificacao-espirita.epub",
+    "cover": "assets/img/livros/coadjuvantes-da-codificacao-espirita.jpg",
+    "size_kb": 100
+  },
+  {
+    "id": 8,
+    "slug": "conhecendo-o-espiritismo",
+    "title": "Conhecendo o Espiritismo",
+    "author": "Louis Neilmoris",
+    "category": "Obras Doutrinárias",
+    "epub": "assets/ebooks/conhecendo-o-espiritismo.epub",
+    "cover": "assets/img/livros/conhecendo-o-espiritismo.jpg",
+    "size_kb": 115
+  },
+  {
+    "id": 18,
+    "slug": "consolacoes",
+    "title": "Consolações",
+    "author": "União Espírita Francesa",
+    "category": "Obras Doutrinárias",
+    "epub": "assets/ebooks/consolacoes.epub",
+    "cover": "assets/img/livros/consolacoes.jpg",
+    "size_kb": 50
+  },
+  {
+    "id": 119,
+    "slug": "cristianismo-em-espiritismo",
+    "title": "Cristianismo em Espiritismo",
+    "author": "Louis Neilmoris",
+    "category": "Obras Doutrinárias",
+    "epub": "assets/ebooks/cristianismo-em-espiritismo.epub",
+    "cover": "assets/img/livros/cristianismo-em-espiritismo.jpg",
+    "size_kb": 52
+  },
+  {
+    "id": 126,
+    "slug": "do-alem-e-do-aquem",
+    "title": "Do Além e do Aquém",
+    "author": "Jorge Gonçalves de Farias e Rodrigo Félix da Cruz (Espíritos diversos)",
+    "category": "Obras Doutrinárias",
+    "epub": "assets/ebooks/do-alem-e-do-aquem.epub",
+    "cover": "assets/img/livros/do-alem-e-do-aquem.jpg",
+    "size_kb": 67
+  },
+  {
+    "id": 135,
+    "slug": "educacao-para-a-morte",
+    "title": "Educação para a Morte",
+    "author": "José Herculano Pires",
+    "category": "Obras Doutrinárias",
+    "epub": "assets/ebooks/educacao-para-a-morte.epub",
+    "cover": "assets/img/livros/educacao-para-a-morte.jpg",
+    "size_kb": 118
+  },
+  {
+    "id": 115,
+    "slug": "estudando-com-os-espiritos",
+    "title": "Estudando com os Espíritos",
+    "author": "Jorge Gonçalves de Farias",
+    "category": "Obras Doutrinárias",
+    "epub": "assets/ebooks/estudando-com-os-espiritos.epub",
+    "cover": "assets/img/livros/estudando-com-os-espiritos.jpg",
+    "size_kb": 131
+  },
+  {
+    "id": 57,
+    "slug": "ficcoes-e-insinuacoes-resposta-a-brochura-muita-luz-beaucoup-de-",
+    "title": "FICÇÕES e INSINUAÇÕES - RESPOSTA Á BROCHURA MUITA LUZ (Beaucoup de Lumiére)",
+    "author": "Sociedade Científica do Espiritismo",
+    "category": "Obras Doutrinárias",
+    "epub": "assets/ebooks/ficcoes-e-insinuacoes-resposta-a-brochura-muita-luz-beaucoup-de-.epub",
+    "cover": "assets/img/livros/ficcoes-e-insinuacoes-resposta-a-brochura-muita-luz-beaucoup-de-.jpg",
+    "size_kb": 85
+  },
+  {
+    "id": 54,
+    "slug": "introducao-a-filosofia-espirita",
+    "title": "Introdução à Filosofia Espírita",
+    "author": "José Herculano Pires",
+    "category": "Obras Doutrinárias",
+    "epub": "assets/ebooks/introducao-a-filosofia-espirita.epub",
+    "cover": "assets/img/livros/introducao-a-filosofia-espirita.jpg",
+    "size_kb": 64
+  },
+  {
+    "id": 91,
+    "slug": "musicoterapia",
+    "title": "Musicoterapia",
+    "author": "Delci Alves",
+    "category": "Obras Doutrinárias",
+    "epub": "assets/ebooks/musicoterapia.epub",
+    "cover": "assets/img/livros/musicoterapia.jpg",
+    "size_kb": 53
+  },
+  {
+    "id": 192,
+    "slug": "na-hora-do-testemunho",
+    "title": "Na Hora do Testemunho",
+    "author": "Chico Xavier e José Herculano Pires",
+    "category": "Obras Doutrinárias",
+    "epub": "assets/ebooks/na-hora-do-testemunho.epub",
+    "cover": "assets/img/livros/na-hora-do-testemunho.jpg",
+    "size_kb": 133
+  },
+  {
+    "id": 182,
+    "slug": "o-auto-de-fe-de-barcelona",
+    "title": "O Auto de Fé de Barcelona",
+    "author": "Florentino Barrera",
+    "category": "Obras Doutrinárias",
+    "epub": "assets/ebooks/o-auto-de-fe-de-barcelona.epub",
+    "cover": "assets/img/livros/o-auto-de-fe-de-barcelona.jpg",
+    "size_kb": 101
+  },
+  {
+    "id": 26,
+    "slug": "o-centro-espirita",
+    "title": "O Centro Espírita",
+    "author": "José Herculano Pires",
+    "category": "Obras Doutrinárias",
+    "epub": "assets/ebooks/o-centro-espirita.epub",
+    "cover": "assets/img/livros/o-centro-espirita.jpg",
+    "size_kb": 109
+  },
+  {
+    "id": 104,
+    "slug": "o-espiritismo-e-a-igreja",
+    "title": "O Espiritismo e a Igreja",
+    "author": "Haraldur Nielsson",
+    "category": "Obras Doutrinárias",
+    "epub": "assets/ebooks/o-espiritismo-e-a-igreja.epub",
+    "cover": "assets/img/livros/o-espiritismo-e-a-igreja.jpg",
+    "size_kb": 88
+  },
+  {
+    "id": 92,
+    "slug": "o-espiritismo-em-movimento",
+    "title": "O Espiritismo em Movimento",
+    "author": "Rodrigo Félix da Cruz",
+    "category": "Obras Doutrinárias",
+    "epub": "assets/ebooks/o-espiritismo-em-movimento.epub",
+    "cover": "assets/img/livros/o-espiritismo-em-movimento.jpg",
+    "size_kb": 86
+  },
+  {
+    "id": 68,
+    "slug": "o-espirito-e-o-tempo",
+    "title": "O Espírito e o Tempo",
+    "author": "José Herculano Pires",
+    "category": "Obras Doutrinárias",
+    "epub": "assets/ebooks/o-espirito-e-o-tempo.epub",
+    "cover": "assets/img/livros/o-espirito-e-o-tempo.jpg",
+    "size_kb": 221
+  },
+  {
+    "id": 155,
+    "slug": "o-livro-dos-espiritos-e-sua-tradicao-historica-e-lendaria",
+    "title": "O Livro dos Espíritos e Sua Tradição Histórica e Lendária",
+    "author": "Canuto Abreu",
+    "category": "Obras Doutrinárias",
+    "epub": "assets/ebooks/o-livro-dos-espiritos-e-sua-tradicao-historica-e-lendaria.epub",
+    "cover": "assets/img/livros/o-livro-dos-espiritos-e-sua-tradicao-historica-e-lendaria.jpg",
+    "size_kb": 160
+  },
+  {
+    "id": 86,
+    "slug": "o-pensamento",
+    "title": "O Pensamento",
+    "author": "Rodrigo Félix da Cruz",
+    "category": "Obras Doutrinárias",
+    "epub": "assets/ebooks/o-pensamento.epub",
+    "cover": "assets/img/livros/o-pensamento.jpg",
+    "size_kb": 31
+  },
+  {
+    "id": 93,
+    "slug": "o-perispirito",
+    "title": "O Perispírito",
+    "author": "Rodrigo Félix da Cruz",
+    "category": "Obras Doutrinárias",
+    "epub": "assets/ebooks/o-perispirito.epub",
+    "cover": "assets/img/livros/o-perispirito.jpg",
+    "size_kb": 56
+  },
+  {
+    "id": 194,
+    "slug": "o-verbo-e-a-carne",
+    "title": "O Verbo e a Carne",
+    "author": "J. Herculano Pires e Júlio Abreu Filho",
+    "category": "Obras Doutrinárias",
+    "epub": "assets/ebooks/o-verbo-e-a-carne.epub",
+    "cover": "assets/img/livros/o-verbo-e-a-carne.jpg",
+    "size_kb": 163
+  },
+  {
+    "id": 97,
+    "slug": "palestra-espirita-como-fazer",
+    "title": "Palestra Espírita - Como Fazer",
+    "author": "Louis Neilmoris",
+    "category": "Obras Doutrinárias",
+    "epub": "assets/ebooks/palestra-espirita-como-fazer.epub",
+    "cover": "assets/img/livros/palestra-espirita-como-fazer.jpg",
+    "size_kb": 60
+  },
+  {
+    "id": 113,
+    "slug": "parabolas-e-ensinos-de-jesus",
+    "title": "Parábolas e Ensinos de Jesus",
+    "author": "CEJA",
+    "category": "Obras Doutrinárias",
+    "epub": "assets/ebooks/parabolas-e-ensinos-de-jesus.epub",
+    "cover": "assets/img/livros/parabolas-e-ensinos-de-jesus.jpg",
+    "size_kb": 22
+  },
+  {
+    "id": 53,
+    "slug": "pedagogia-espirita",
+    "title": "Pedagogia Espírita",
+    "author": "José Herculano Pires",
+    "category": "Obras Doutrinárias",
+    "epub": "assets/ebooks/pedagogia-espirita.epub",
+    "cover": "assets/img/livros/pedagogia-espirita.jpg",
+    "size_kb": 163
+  },
+  {
+    "id": 71,
+    "slug": "pinga-fogo-com-chico-xavier",
+    "title": "Pinga-Fogo com Chico Xavier",
+    "author": "EDICEL",
+    "category": "Obras Doutrinárias",
+    "epub": "assets/ebooks/pinga-fogo-com-chico-xavier.epub",
+    "cover": "assets/img/livros/pinga-fogo-com-chico-xavier.jpg",
+    "size_kb": 68
+  },
+  {
+    "id": 80,
+    "slug": "reencarnacao",
+    "title": "Reencarnação",
+    "author": "Aristides Appolinário",
+    "category": "Obras Doutrinárias",
+    "epub": "assets/ebooks/reencarnacao.epub",
+    "cover": "assets/img/livros/reencarnacao.jpg",
+    "size_kb": 25
+  },
+  {
+    "id": 99,
+    "slug": "roma-e-o-evangelho",
+    "title": "Roma e o Evangelho",
+    "author": "José Amigó y Pellícer",
+    "category": "Obras Doutrinárias",
+    "epub": "assets/ebooks/roma-e-o-evangelho.epub",
+    "cover": "assets/img/livros/roma-e-o-evangelho.jpg",
+    "size_kb": 278
+  },
+  {
+    "id": 129,
+    "slug": "semente-na-mente",
+    "title": "Semente na Mente",
+    "author": "Jorge Gonçalves de Farias e Rodrigo Félix da Cruz (Espíritos diversos)",
+    "category": "Obras Doutrinárias",
+    "epub": "assets/ebooks/semente-na-mente.epub",
+    "cover": "assets/img/livros/semente-na-mente.jpg",
+    "size_kb": 69
+  },
+  {
+    "id": 15,
+    "slug": "sexualidade-sob-um-olhar-espirita",
+    "title": "Sexualidade sob Um Olhar Espírita",
+    "author": "Louis Neilmoris",
+    "category": "Obras Doutrinárias",
+    "epub": "assets/ebooks/sexualidade-sob-um-olhar-espirita.epub",
+    "cover": "assets/img/livros/sexualidade-sob-um-olhar-espirita.jpg",
+    "size_kb": 88
+  },
+  {
+    "id": 39,
+    "slug": "vampirismo",
+    "title": "Vampirismo",
+    "author": "José Herculano Pires",
+    "category": "Obras Doutrinárias",
+    "epub": "assets/ebooks/vampirismo.epub",
+    "cover": "assets/img/livros/vampirismo.jpg",
+    "size_kb": 97
+  },
+  {
+    "id": 41,
+    "slug": "visao-espirita-da-biblia",
+    "title": "Visão Espírita da Bíblia",
+    "author": "José Herculano Pires",
+    "category": "Obras Doutrinárias",
+    "epub": "assets/ebooks/visao-espirita-da-biblia.epub",
+    "cover": "assets/img/livros/visao-espirita-da-biblia.jpg",
+    "size_kb": 78
+  }
+]

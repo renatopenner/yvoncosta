@@ -166,17 +166,17 @@
         </a>
 
         <!-- Menu Desktop (Espaçado, Arejado, Sem Amontoar) -->
-        <nav class="hidden lg:flex items-center gap-6 xl:gap-8 text-xs font-semibold uppercase tracking-wider text-gray-600">
+        <nav class="hidden lg:flex items-center gap-4 xl:gap-6 text-xs font-semibold uppercase tracking-wider text-gray-600">
           <a href="#inicio" class="whitespace-nowrap hover:text-forest-800 transition py-1 border-b-2 border-transparent hover:border-forest-700">Início</a>
-          <a href="#palestras" class="whitespace-nowrap text-amber-900 font-bold bg-amber-50 px-3.5 py-1.5 rounded-full border border-amber-200/90 hover:bg-amber-100 transition inline-flex items-center gap-1.5"><i data-lucide="play-circle" class="w-3.5 h-3.5 text-red-600"></i> Palestras</a>
-          <a href="#sobre" class="whitespace-nowrap hover:text-forest-800 transition py-1 border-b-2 border-transparent hover:border-forest-700">A Casa</a>
+          <a href="#palestras" class="whitespace-nowrap text-amber-900 font-bold bg-amber-50 px-3 py-1.5 rounded-full border border-amber-200/90 hover:bg-amber-100 transition inline-flex items-center gap-1.5"><i data-lucide="play-circle" class="w-3.5 h-3.5 text-red-600"></i> Palestras</a>
+          <a href="livraria.html" class="whitespace-nowrap hover:text-forest-800 transition py-1 border-b-2 border-transparent hover:border-forest-700 inline-flex items-center gap-1"><i data-lucide="book-marked" class="w-3.5 h-3.5 text-amber-700"></i> Livraria</a>
+          <a href="biblioteca.html" class="whitespace-nowrap text-forest-900 font-bold bg-emerald-50 px-3 py-1.5 rounded-full border border-emerald-200 hover:bg-emerald-100 transition inline-flex items-center gap-1.5"><i data-lucide="book-open" class="w-3.5 h-3.5 text-forest-700"></i> Biblioteca Virtual</a>
           <a href="#programacao" class="whitespace-nowrap hover:text-forest-800 transition py-1 border-b-2 border-transparent hover:border-forest-700">Horários</a>
-          <a href="#atendimento" class="whitespace-nowrap hover:text-forest-800 transition py-1 border-b-2 border-transparent hover:border-forest-700">Atendimento Fraterno</a>
-          <a href="#projetos" class="whitespace-nowrap hover:text-forest-800 transition py-1 border-b-2 border-transparent hover:border-forest-700 inline-flex items-center gap-1.5 text-forest-900 font-bold">
-            <span>Ações Sociais & PIX</span>
+          <a href="#atendimento" class="whitespace-nowrap hover:text-forest-800 transition py-1 border-b-2 border-transparent hover:border-forest-700">Atendimento</a>
+          <a href="#projetos" class="whitespace-nowrap hover:text-forest-800 transition py-1 border-b-2 border-transparent hover:border-forest-700 inline-flex items-center gap-1 text-forest-900 font-bold">
+            <span>PIX</span>
             <i data-lucide="heart" class="w-3.5 h-3.5 text-forest-700 fill-forest-700/20"></i>
           </a>
-          <a href="#localizacao" class="whitespace-nowrap hover:text-forest-800 transition py-1 border-b-2 border-transparent hover:border-forest-700">Localização</a>
         </nav>
 
         <!-- Botão Menu Mobile -->
@@ -193,6 +193,14 @@
       <a href="#palestras" class="mobile-link block text-sm font-bold uppercase tracking-wider text-amber-900 bg-amber-50 p-2.5 rounded-xl border border-amber-200 flex items-center justify-between">
         <span>🎥 Palestras Gravadas & Eventos</span>
         <span class="text-[10px] bg-red-600 text-white font-sans font-bold px-2 py-0.5 rounded-full uppercase">Novo Vídeo</span>
+      </a>
+      <a href="livraria.html" class="mobile-link block text-sm font-bold uppercase tracking-wider text-forest-950 bg-sand-100 p-2.5 rounded-xl border border-sand-300 flex items-center justify-between">
+        <span>📚 Livraria Física (50 Obras)</span>
+        <span class="text-[10px] bg-forest-900 text-gold-400 font-sans font-bold px-2 py-0.5 rounded-full uppercase">Na Casa</span>
+      </a>
+      <a href="biblioteca.html" class="mobile-link block text-sm font-bold uppercase tracking-wider text-forest-950 bg-emerald-50 p-2.5 rounded-xl border border-emerald-200 flex items-center justify-between">
+        <span>📖 Biblioteca Virtual (100 EPUBs)</span>
+        <span class="text-[10px] bg-emerald-700 text-white font-sans font-bold px-2 py-0.5 rounded-full uppercase">Grátis</span>
       </a>
       <a href="#sobre" class="mobile-link block text-sm font-semibold uppercase tracking-wider text-forest-950 hover:text-forest-700">Sobre a Instituição</a>
       <a href="#programacao" class="mobile-link block text-sm font-semibold uppercase tracking-wider text-forest-950 hover:text-forest-700">Horários & Programação</a>
@@ -364,6 +372,51 @@
         <p id="lightbox-caption" class="text-white text-xs mt-3 text-center"></p>
       </div>
     </div>
+
+    <!-- LIVRARIA FÍSICA & BIBLIOTECA VIRTUAL -->
+    <section id="livros" class="py-14 bg-white border-b border-sand-200/80">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+          <!-- Card Livraria Física -->
+          <div class="bg-sand-50 rounded-3xl p-7 sm:p-8 border border-sand-200 shadow-sm flex flex-col justify-between gap-6">
+            <div>
+              <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-100 text-amber-900 text-[11px] font-bold uppercase tracking-wider border border-amber-200 mb-3">
+                <i data-lucide="store" class="w-3.5 h-3.5"></i> Compra Presencial na Sede
+              </span>
+              <h2 class="font-serif text-2xl sm:text-3xl text-forest-950 font-bold">Livraria Física — 50 Obras</h2>
+              <p class="text-sm text-gray-600 mt-2 font-light leading-relaxed">
+                Confira o catálogo com capas das <strong>50 obras espíritas mais lidas</strong> — Obras Básicas de Allan Kardec, toda a Coleção André Luiz, Emmanuel, Joanna de Ângelis e outros clássicos — para adquirir pessoalmente no Centro Espírita Yvon Costa.
+              </p>
+            </div>
+            <div class="flex flex-wrap items-center justify-between gap-3 pt-4 border-t border-sand-200">
+              <span class="text-xs text-forest-800 font-semibold">Tv. Castelo Branco, 870 • Belém/PA</span>
+              <a href="livraria.html" class="px-5 py-2.5 bg-forest-900 hover:bg-forest-800 text-white text-xs font-bold uppercase tracking-wider rounded-xl transition inline-flex items-center gap-2">
+                <i data-lucide="book-marked" class="w-4 h-4 text-gold-400"></i> Ver Livraria
+              </a>
+            </div>
+          </div>
+
+          <!-- Card Biblioteca Virtual -->
+          <div class="bg-gradient-to-br from-forest-950 via-forest-900 to-forest-950 text-white rounded-3xl p-7 sm:p-8 border border-forest-800 shadow-lg flex flex-col justify-between gap-6">
+            <div>
+              <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-gold-400/20 text-gold-400 text-[11px] font-bold uppercase tracking-wider border border-gold-400/30 mb-3">
+                <i data-lucide="download" class="w-3.5 h-3.5"></i> 100% Gratuito em EPUB
+              </span>
+              <h2 class="font-serif text-2xl sm:text-3xl text-white font-bold">Biblioteca Virtual — 100 Livros</h2>
+              <p class="text-sm text-forest-200 mt-2 font-light leading-relaxed">
+                Baixe gratuitamente os <strong>100 principais livros espíritas kardecistas</strong> em formato EPUB leve para celular, tablet ou Kindle. Conteúdo livre para estudo, com opção de colaborar via PIX com nossas obras de caridade.
+              </p>
+            </div>
+            <div class="flex flex-wrap items-center justify-between gap-3 pt-4 border-t border-forest-800">
+              <span class="text-xs text-gold-300 font-semibold">Codificação • Revista Espírita • Clássicos</span>
+              <a href="biblioteca.html" class="px-5 py-2.5 bg-gold-400 hover:bg-gold-500 text-forest-950 text-xs font-bold uppercase tracking-wider rounded-xl transition inline-flex items-center gap-2">
+                <i data-lucide="book-open" class="w-4 h-4"></i> Acessar Biblioteca
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- SOBRE A CASA & PATRONO -->
     <section id="sobre" class="py-20 bg-white">
@@ -608,6 +661,14 @@
                     </tr>
                   </tbody>
                 </table>
+              </div>
+              <div class="mt-6 pt-5 border-t border-sand-200 flex flex-col sm:flex-row gap-3">
+                <a href="biblioteca.html" class="flex-1 inline-flex items-center justify-center gap-2 px-5 py-3 bg-forest-900 hover:bg-forest-800 text-white text-xs font-bold uppercase tracking-wider rounded-xl shadow-sm transition">
+                  <i data-lucide="download" class="w-4 h-4 text-gold-400"></i> Acessar Biblioteca Virtual (100 EPUBs Grátis)
+                </a>
+                <a href="livraria.html" class="flex-1 inline-flex items-center justify-center gap-2 px-5 py-3 bg-sand-100 hover:bg-sand-200 text-forest-950 border border-sand-300 text-xs font-bold uppercase tracking-wider rounded-xl transition">
+                  <i data-lucide="book-marked" class="w-4 h-4 text-amber-700"></i> Ver Livraria Física (50 Obras)
+                </a>
               </div>
             </div>
           </div>
@@ -934,9 +995,10 @@
 
         <div class="flex flex-wrap items-center justify-center gap-6 uppercase tracking-wider text-[11px] font-semibold text-forest-400">
           <a href="#inicio" class="hover:text-sand-100 transition">Início</a>
-          <a href="#sobre" class="hover:text-sand-100 transition">A Casa</a>
+          <a href="palestras.html" class="hover:text-sand-100 transition">Palestras</a>
+          <a href="livraria.html" class="hover:text-sand-100 transition">Livraria</a>
+          <a href="biblioteca.html" class="hover:text-sand-100 transition">Biblioteca Virtual</a>
           <a href="#programacao" class="hover:text-sand-100 transition">Horários</a>
-          <a href="#atendimento" class="hover:text-sand-100 transition">Atendimento Fraterno</a>
           <a href="#doacoes" class="hover:text-sand-100 transition">Doe PIX</a>
           <a href="#localizacao" class="hover:text-sand-100 transition">Contato</a>
         </div>

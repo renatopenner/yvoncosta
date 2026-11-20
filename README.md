@@ -6,6 +6,9 @@ Site institucional moderno, responsivo e acolhedor do **Centro Espírita Yvon Co
 - **Hospedagem:** GitHub Pages com certificado SSL/HTTPS automático gratuito
 - **Endereço:** Tv. Francisco Caldeira Castelo Branco, 870 — São Brás / Fátima, Belém - PA
 - **CNPJ / Chave PIX:** `05.090.857/0001-63` (Banco Bradesco)
+- **Novas Seções:**
+  - `livraria.html`: Catálogo das 50 obras espíritas mais lidas (Obras Básicas, Coleção André Luiz e clássicos) para aquisição presencial na sede.
+  - `biblioteca.html`: Biblioteca Virtual Gratuita com 100 obras espíritas kardecistas convertidas para EPUB leve para download livre.
 
 ## Tecnologias
 - HTML5 Semântico
